@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let bigger, smaller;
+
+      let num1 = parseInt(prompt("Enter a number"));
+      let num2 = parseInt(prompt("Enter a second number"));
+      if (num1 > num2) {
+        bigger = num1;
+        smaller = num2;
+      } else {
+        smaller = num1;
+        bigger = num2;
+      }
+
+      if (smaller === 0) {
+        console.log(1);
+      } else {
+        console.log(bigger / smaller);
+      }
+
+      //Ex 2
+
+      let x = parseInt(prompt("Enter text or number"));
+      console.log(typeof x);
+
+      if (x === NaN) {
+        x.toString();
+        console.log(x + "!!!");
+      } else if (typeof x === "number") {
+        console.log(x + 5);
+      }
+
+      //Ex3
+
+      const input1 = prompt("Enter text").toLowerCase();
+      const input2 = prompt("Enter text").toLowerCase();
+      if (input1 === input2) {
+        console.log("They are the same");
+      } else {
+        console.log("they are not");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //ex1
+      var sum = 0;
+      for (var i = 100; i > 0; i -= 1) {
+        sum += i;
+      }
+      console.log("the sum is " + sum);
+
+      var while_sum = 0;
+      var number = 1;
+      while (number <= 100) {
+        while_sum += number++;
+      }
+      console.log("the sum is " + sum);
+
+      //ex2
+
+      const input = prompt("Enter a word");
+      const split = input
+        .split("")
+        .reverse()
+        .join("");
+      console.log(split);
+
+      // second way:
+      var reversed = "";
+      for (var i = str.length - 1; i >= 0; i--) {
+        reversed += str.charAt(i);
+      }
+      console.log(reversed);
+    </script>
+  </body>
+</html>
