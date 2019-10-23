@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const random = Math.floor(Math.random() * 10);
+      console.log(random);
+      const input = parseInt(prompt("Number 1-10:"));
+      if (input === random) {
+        console.log("You guessed correctly");
+      } else {
+        console.log("You guessed wrong");
+      }
+    </script>
+  </body>
+</html>

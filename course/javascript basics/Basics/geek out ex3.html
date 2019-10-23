@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const array1 = [];
+      const array2 = [];
+      const str1 = prompt("First string");
+      const str2 = prompt("Second string");
+      const split1 = str1.split("");
+      const split2 = str2.split("");
+      array1.push(split1[split1.length - 2]);
+      array1.push(split1[split1.length - 1]);
+      array2.push(split2[split2.length - 2]);
+      array2.push(split2[split2.length - 1]);
+      for (let i = 0; i < array1.length; i++) {
+        if (array1[i] === array2[i]) {
+          console.log(true);
+        } else {
+          console.log(false);
+        }
+      }
+    </script>
+  </body>
+</html>
