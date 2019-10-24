@@ -9,22 +9,20 @@
   <body>
     <script>
       const replaceString = () => {
-        //1) Prompt 3 strings
-        const input1 = prompt("First string");
-        const input2 = prompt("Second string");
-        const input3 = prompt("Third string");
-        //2) Split the strings
-        const string1 = input1.split(" ");
-        const string2 = input2.split(" ");
-        const string3 = input3.split(" ");
+        //1) Prompt 3 strings and split them
+        const string1 = prompt("First string").split(" ");
+        const string2 = prompt("Second string").split(" ");
+        const string3 = prompt("Third string").split(" ");
+  
 
-        //3)loop through string2 words
+        //2)loop through string2 words
         for (let i = 0; i < string2.length; i++) {
           string1.map((word, index) => {
-            //4)check occurrences of words with string1 and string2
+            //3)check occurrences of words with string1 and string2
             if (word === string2[i]) {
-              //Replace occurrences with words from string3 to string1
+              //4)Replace occurrences with words from string3 to string1
               string1.splice(index, 1, string3);
+              //starting point, how many elements,what to replace it with.
             }
           });
         }

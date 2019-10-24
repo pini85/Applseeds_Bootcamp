@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function foo(number, operationConstants) {
+        if (typeof number !== "number") {
+          console.log("error. not a number");
+        }
+        var result = null;
+        if (number < 10) {
+          result = {
+            //bug + 2
+            addition: operationConstants.addition + 2
+          };
+          result.message = "new value is " + number + result.addition;
+        } else {
+          result = {
+            subtraction: operationConstants.subtraction - 2821
+          };
+
+          //bug parenthesis
+          result.message = "new value is " + (number - result.subtraction);
+        }
+        result.initialValue = number;
+
+        return console.log(result.message);
+      }
+      var obj = {
+        addition: 2822,
+        subtraction: 2822
+      };
+      foo(12, obj); // new value should be 11
+      foo(2, obj); // new value should be 2824
+    </script>
+  </body>
+</html>

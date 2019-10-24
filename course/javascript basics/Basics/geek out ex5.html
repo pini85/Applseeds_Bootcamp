@@ -30,8 +30,17 @@
         if (index === -1) {
           return str;
         }
+        console.log(index);
+        console.log(searchstr.length);
+
+        console.log(str.slice(index + searchstr.length));
+        console.log(index + searchstr.length);
         return str.slice(0, index) + str.slice(index + searchstr.length);
+        //start,until. end doesnt give the last element
+        //hello --> "e"  -> h ----> + --> 1+1=2 -->llo
       }
+      const input1 = prompt("First String");
+      const input2 = prompt("Second string");
 
       console.log(remove_first_occurrence(input1, input2));
     </script>

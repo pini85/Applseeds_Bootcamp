@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // function alphabetical(str) {
+      //   const string = str.split("");
+      //   const slicedString = str.slice(1).split("");
+      //   console.log(slicedString);
+      //   const newString = [];
+      //   console.log(string);
+      //   for (let i = 0; i < string.length; i++) {
+      //     //bza
+      //     slicedString.map(char => {
+      //       console.log(string[i]);
+      //       console.log(char);
+
+      //       if (string[i] > char) {
+      //         newString.push(string[i]);
+      //       }
+      //       return newString;
+      //     });
+      //   }
+      //   return newString;
+      // }
+
+      // function alphabetical(str) {
+      //   const newString = [];
+      //   split = str.split("");
+      //   for (let i = 0; i < str.length; i++) {
+      //     //bza
+      //     split.map(char => {
+      //       console.log(split[i]);
+
+      //       if (char < str.charAt(i + 1)) {
+      //         newString.push(str.charAt(i));
+      //       }
+      //     });
+      //   }
+      //   return newString;
+      // }
+      // const input = prompt("string:");
+      // console.log(alphabetical(input));
+      // function bubbleSort(array) {
+      //   for (var i = 1; i < array.length; i += 1) {
+      //     console.log(array[i - 1]);
+      //     if (array[i - 1] > array[i]) {
+      //       var tmp = array[i - 1];
+      //       array[i - 1] = array[i];
+      //       array[i] = tmp;
+      //     }
+      //   }
+
+      //   return array;
+      // }
+
+      // var numbers = [12, 10, 15, 11, 14, 13, 16];
+      // bubbleSort(numbers);
+      // console.log(numbers);
+      let bubbleSort = input => {
+        //bza
+        inputArr = input.split("");
+        for (let i = 0; i < inputArr.length; i++) {
+          for (let j = 0; j < inputArr.length; j++) {
+            if (inputArr[j] > inputArr[j + 1]) {
+              let tmp = inputArr[j];
+              inputArr[j] = inputArr[j + 1];
+              inputArr[j + 1] = tmp;
+            }
+          }
+        }
+        return inputArr;
+      };
+      const input = prompt("type:");
+      console.log(bubbleSort(input));
+    </script>
+    Write a program that accepts a given string, sorts it and returns a string
+    sorted in alphabetical order. Example: string=”bza” Sorted it would be “abz”
+    You are not allowed to use the sort function.
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function leapYear(input) {
+        /*
+                input % 4 === 0
+                except:
+                input % 100 === 0
+                unless
+                input % 400 = 0
+
+                */
+        //except 100 unless 400
+        if (input % 100 === 0 && input % 400 === 0) {
+          console.log("yup first");
+          //input % 4 and not input % 100
+        } else if (input % 4 === 0 && input % 100 !== 0) {
+          console.log("yup second");
+        } else {
+          console.log("nope");
+        }
+      }
+
+      const input = parseInt(prompt("Year:"));
+      leapYear(input);
+    </script>
+  </body>
+</html>
+
+Create a JS program to determine whether or not a given year is a leap year. The
+program should: 1) Prompt the user for a year 2) Determine whether or not it is
+a leap year * If the given year is a leap year, the program should print "It is
+indeed a leap year", otherwise the program will print "This is not a leap year."
+Help: every year that is divisible by 4 is a leap year except for the ones that
+are also divisible by 100, unless it is divisible by 400. Example: 2012 is a
+leap year 2100 is not But 2400 is
