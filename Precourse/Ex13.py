@@ -1,6 +1,4 @@
 user_input = input("Type something: ")
-
-
 def find_longest_word(word_list):
     longest_word = ''
     word_split = word_list.split()

@@ -8,76 +8,52 @@
   </head>
   <body>
     <script>
-      // function alphabetical(str) {
-      //   const string = str.split("");
-      //   const slicedString = str.slice(1).split("");
-      //   console.log(slicedString);
-      //   const newString = [];
-      //   console.log(string);
-      //   for (let i = 0; i < string.length; i++) {
-      //     //bza
-      //     slicedString.map(char => {
-      //       console.log(string[i]);
-      //       console.log(char);
-
-      //       if (string[i] > char) {
-      //         newString.push(string[i]);
-      //       }
-      //       return newString;
-      //     });
-      //   }
-      //   return newString;
-      // }
-
-      // function alphabetical(str) {
-      //   const newString = [];
-      //   split = str.split("");
-      //   for (let i = 0; i < str.length; i++) {
-      //     //bza
-      //     split.map(char => {
-      //       console.log(split[i]);
-
-      //       if (char < str.charAt(i + 1)) {
-      //         newString.push(str.charAt(i));
-      //       }
-      //     });
-      //   }
-      //   return newString;
-      // }
-      // const input = prompt("string:");
-      // console.log(alphabetical(input));
-      // function bubbleSort(array) {
-      //   for (var i = 1; i < array.length; i += 1) {
-      //     console.log(array[i - 1]);
-      //     if (array[i - 1] > array[i]) {
-      //       var tmp = array[i - 1];
-      //       array[i - 1] = array[i];
-      //       array[i] = tmp;
-      //     }
-      //   }
-
-      //   return array;
-      // }
-
-      // var numbers = [12, 10, 15, 11, 14, 13, 16];
-      // bubbleSort(numbers);
-      // console.log(numbers);
       let bubbleSort = input => {
         //bza
         inputArr = input.split("");
         for (let i = 0; i < inputArr.length; i++) {
           for (let j = 0; j < inputArr.length; j++) {
             if (inputArr[j] > inputArr[j + 1]) {
+              console.log(
+                inputArr[j],
+                inputArr[j + 1],
+                "inputArr[j] > inputArr[j + 1]"
+              );
               let tmp = inputArr[j];
+              console.log(tmp, " let tmp = inputArr[j]"); //z
               inputArr[j] = inputArr[j + 1];
+              console.log(inputArr[(j, "inputArr[j] = inputArr[j + 1];")]);
               inputArr[j + 1] = tmp;
+              console.log(inputArr[j + 1], "inputArr[j + 1] = tmp;");
             }
           }
         }
         return inputArr;
       };
       const input = prompt("type:");
-      console.log(bubbleSort(input));
+      // console.log(bubbleSort(input));
+      var text = prompt(
+        "Please enter some characters you would like to sort alphabetically"
+      );
+      var strLower = text.toLowerCase();
+      var strNoSpaces = strLower.replace(" ", "");
+      var arr = strNoSpaces.split("");
+      //bza
+
+      for (var i = 0; i < arr.length; i++) {
+        smallestIndex = i;
+        for (var j = i + 1; j < arr.length; j++) {
+          if (arr[smallestIndex] > arr[j]) {
+            smallestIndex = j;
+          }
+        }
+        if (i !== smallestIndex) {
+          temp = arr[i];//b
+          arr[i] = arr[smallestIndex];
+          arr[smallestIndex] = temp;
+        }
+      }
+      console.log(arr.join(""));
     </script>
     Write a program that accepts a given string, sorts it and returns a string
     sorted in alphabetical order. Example: string=”bza” Sorted it would be “abz”

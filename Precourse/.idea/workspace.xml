@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1257f585-cf72-4b4f-8bc2-aa9c452a8543" name="Default Changelist" comment="" />
+    <list default="true" id="1257f585-cf72-4b4f-8bc2-aa9c452a8543" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex17.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/javascript basics/Basics/ninja ex1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../course/javascript basics/Basics/ninja ex1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/javascript basics/Basics/ninja ex2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../course/javascript basics/Basics/ninja ex2.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +32,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1S4iNUwrBE7oNznko7V2iBn3dQP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -38,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.assignment_1">
+  <component name="RunManager" selected="Python.hangman (1)">
     <configuration name="Assignment_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex17" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Ex15" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +94,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex17.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex15.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex18" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hangman (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,7 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex18.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hangman.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hangman" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex9.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/hangman.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="assignment_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="student" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +157,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/student.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.assignment_1" />
-        <item itemvalue="Python.Ex9" />
+        <item itemvalue="Python.hangman (1)" />
         <item itemvalue="Python.Assignment_3" />
-        <item itemvalue="Python.Ex18" />
-        <item itemvalue="Python.Ex17" />
+        <item itemvalue="Python.hangman" />
+        <item itemvalue="Python.student" />
+        <item itemvalue="Python.Ex15" />
       </list>
     </recent_temporary>
   </component>
@@ -167,12 +189,24 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Ex8.py</url>
-          <line>12</line>
+          <url>file://$PROJECT_DIR$/Ex14.py</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

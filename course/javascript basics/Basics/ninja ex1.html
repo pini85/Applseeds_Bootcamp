@@ -17,8 +17,8 @@
                 input % 400 = 0
 
                 */
-        //except 100 unless 400
-        if (input % 100 === 0 && input % 400 === 0) {
+        //input % 4 except 100 unless 400
+        if (input % 4 === 0 && input % 100 === 0 && input % 400 === 0) {
           console.log("yup first");
           //input % 4 and not input % 100
         } else if (input % 4 === 0 && input % 100 !== 0) {

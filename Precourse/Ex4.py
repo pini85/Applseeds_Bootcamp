@@ -1,7 +1,6 @@
 def restaurant():
     try:
         num_people = int(input("How many people are you going with?:"))
-        print('yes')
     except ValueError:
         print('Error! Not an integer!')
         exit()
