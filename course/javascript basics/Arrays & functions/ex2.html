@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function myFunction1(array) {
+        return array.reduce((accumulator, currentValue) => {
+          return accumulator + currentValue;
+        }, 0);
+      }
+      console.log(myFunction1([1, 2, 3, 4, 5, 1]));
+
+      function myFunction2(array) {
+        var result = 0;
+        for (let i = 0; i < array.length; i++) {
+          result += array[i];
+        }
+        return result;
+      }
+      console.log(myFunction2([1, 2, 3, 4, 5, 1]));
+
+      function myNinjaFunction(arr) {
+        var sum = 0;
+        for (var i = 0; i < arr.length; i++) {
+          for (var j = 0; j < arr[i].length; j++) {
+            sum += arr[i][j];
+          }
+        }
+        return sum;
+      }
+
+      console.log(
+        myNinjaFunction([
+          [1, 2, 3, 4, 5],
+          [2, 2, 2, 2, 2],
+          [1, 1, 1, 1, 1],
+          [2]
+        ])
+      );
+
+      function myNinjaFunction1(array) {
+        var result = 0;
+        var merged = [].concat.apply([], array);
+
+        for (let i = 0; i < merged.length; i++) {
+          result += merged[i];
+        }
+        return result;
+      }
+
+      console.log(
+        myNinjaFunction1([
+          [1, 2, 3, 4, 5],
+          [2, 2, 2, 2, 2],
+          [1, 1, 1, 1, 1],
+          [2]
+        ])
+      );
+
+      function myNinjaFunction2(array) {
+        // return merged = [].concat.apply([], array);
+        const merged = [];
+        const result = merged.concat(...array);
+        return result.reduce((accumulator, currentValue) => {
+          return accumulator + currentValue;
+        }, 0);
+      }
+      console.log(
+        myNinjaFunction2([
+          [1, 2, 3, 4, 5],
+          [2, 2, 2, 2, 2],
+          [1, 1, 1, 1, 1],
+          [2]
+        ])
+      );
+
+      //tests
+      function test_equal(actual, expected, msg) {
+        if (Array.isArray(expected)) {
+          for (var i = 0; i < expected.length; i++) {
+            test_equal(actual[i], expected[i], "item in index " + i);
+          }
+        } else {
+          if (actual !== expected) {
+            console.log(
+              `Error testing ${msg || ""}. expected: ${expected}, got ${actual}`
+            );
+          }
+        }
+      }
+      test_equal(myFunction2([]), 0);
+      test_equal(myFunction2([44]), 44);
+      test_equal(myFunction2([1, 4, 4, 4]), 13);
+      test_equal(myNinjaFunction2([]), 0);
+      test_equal(myNinjaFunction2([[1], [4, 4], [4]]), 13);
+      test_equal(myNinjaFunction2([[], [4, 4, 4], [1]]), 13);
+    </script>
+    Question Write a function that will receive an array of numbers and will
+    return the sum of all the numbers in the array. So that if you call this
+    function with this array for example:[1,2,3,4,5] it will return 15. Ninja Do
+    the same with an array of arrays of numbers. Write a function that will sum
+    up all the numbers in all the arrays. Ex : arr= [[1,2,3,4,5], [2,2,2,2,2],
+    [1,1,1,1,1],[2]] Your code should return : 32
+  </body>
+</html>

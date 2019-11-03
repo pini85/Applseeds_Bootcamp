@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const inRange = (array, minRange, maxRange) => {
+        const result = [];
+        array.map(number => {
+          if (number >= minRange && number <= maxRange) {
+            result.push(number);
+          }
+        });
+        return result;
+      };
+      const inRange2 = (array, min, max) => {
+        return array.filter(number => number >= min && number <= max);
+      };
+      console.log(inRange2([2, 33, 46, 22, 29, 1, 7, 45454, 33, 10], 10, 87));
+    </script>
+    Question Write a function called in_range. It should return an array with
+    numbers in the range given by the user. Use array methods and arrow
+    functions. Example: for range 10-87, and array:
+    [2,33,46,22,29,1,7,45454,33,10]; the function should return
+    [33,46,22,29,33,10] Example for using the function:
+    in_range([2,33,46,22,29,1,7,45454,33,10], 10, 87); // [33,46,22,29,33,10]
+  </body>
+</html>

@@ -43,14 +43,23 @@ def hangman(words_list):
             exit()
         print("You have", user_trials, "guesses")
         print("The word is: ", *encrypted_word)
-        guess = input("what is your guess?")
+        guess = (input("what is your guess?")).lower()
         if len(guess) > 1:
             if guess != word:
                 print("Please enter characters only")
             else:
                 correct = True
         else:
-            if guess not in string.ascii_letters:
+            if guess == "":
+                print("You didn't entere a guess.")
+                exit_game = input("Would you like to leave the game?  n or y")
+                if exit_game == "y":
+                    print("Thanks for playing!")
+                    exit()
+                else:
+                    print("Yeye! lets continue guessing!")
+                    continue
+            if guess not in string.ascii_letters or guess == "":
                 print("You entered", guess, "please enter a valid input")
                 continue
             guesses.append(guess)

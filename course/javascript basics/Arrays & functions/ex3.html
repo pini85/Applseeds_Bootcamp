@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const sum = (num1, num2) => {
+        let highest = 0;
+        if (num1 > num2) {
+          highest = num1;
+        } else {
+          highest = num2;
+        }
+        return highest;
+      };
+      console.log(sum(1, 4));
+
+      //ternary operator:
+      const sumTernary = (a, b) => (a > b ? a : b);
+      console.log(sumTernary(1, 4));
+
+      const isSubString = (string, sub) => {
+        if (string.includes(sub)) {
+          return true;
+        }
+        return false;
+      };
+      console.log(isSubString("hello how are you", "hel"));
+
+      //Ternary operator:
+      const isSubStringTernary = (string, sub) =>
+        string.includes(sub) ? true : false;
+      console.log(isSubStringTernary("hello how are you", "hel"));
+    </script>
+    Question Implement the following functions with an arrow function: Note: you
+    are not allowed to use Math.min 1. Math.min - the built-in js function:
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min
+    Implement a function that receives only 2 parameters. Example: min(1,4); //
+    returns 1 2. isSubString(str, substring); example isSubString(hello world,
+    hell); => true
+  </body>
+</html>

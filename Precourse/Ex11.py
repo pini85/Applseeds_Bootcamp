@@ -18,4 +18,16 @@ if x != y:
 # if x == result:
 #     print("It is a palindrome")
 # else:
-#     print("It is not a palindorme")
+#     print("It is not a palindorme")def palindrome():
+
+
+
+
+#     my_str = str(input("please enter a number or a word"))
+#     if my_str == my_str[::-1]:
+#         print("palindrome!!!")
+#     else:
+#         print("not palindrome")
+#
+#
+# palindrome()

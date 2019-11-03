@@ -8,16 +8,27 @@
   </head>
   <body>
     <script>
+      // function countOccurrences(str, char) {
+      //   var counter = 0;
+      //   for (var i = 0; i < str.length; i++) {
+      //     if (str.charAt(i) === char) {
+      //       counter += 1;
+      //     }
+      //   }
+      //   return console.log(counter);
+      // }
+      // countOccurrences("ini mini miny moe", "n");
       function countOccurrences(str, char) {
         var counter = 0;
         for (var i = 0; i < str.length; i++) {
           if (str.charAt(i) === char) {
-            counter += 1;
+            counter + 1;
           }
         }
-        return console.log(counter);
+        return counter;
       }
-      countOccurrences("ini mini miny moe", "n");
+
+      console.log(countOccurrences("ini mini miny moe", "n"));
     </script>
   </body>
 </html>

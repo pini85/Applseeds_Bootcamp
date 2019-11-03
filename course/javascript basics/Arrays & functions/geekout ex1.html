@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var x = 3;
+      var y = 6;
+      var sum_str = `x is ${x} and y is ${y}`;
+      console.assert(sum_str === "x is 3 and y is 6");
+      // 2
+      function sum(x, y) {
+        return x + y;
+      }
+      var sum_str = `the sum of x and y is: ${sum(6, 3)}`;
+      console.assert(sum_str === "the sum of x and y is: 9");
+    </script>
+    Fix the code so that the assertion will pass. test the code in console. // 1
+    var x = 3; var y = 6; var sum_str = 'x is x and y is y';
+    console.assert(sum_str === 'x is 3 and y is 6'); // 2 function sum(x,y){
+    return x+y; } var sum_str = "the sum of x and y is: sum";
+    console.assert(sum_str === 'the sum of x and y is: 9');
+  </body>
+</html>

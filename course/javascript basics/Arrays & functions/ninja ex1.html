@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function max(array) {
+        return array.reduce((highest, count) => {
+          return highest > count ? highest : count;
+        });
+      }
+      console.log(max([1, 2, 30, 20, -4]));
+
+      function avg(numbers) {
+        return (
+          numbers.reduce((total, amount) => {
+            return total + amount;
+          }) / numbers.length
+        );
+      }
+      console.log(avg([1, 2, 30, 20, -4]));
+
+      function even(array) {
+        const even = array.filter(i => {
+          return i % 2 === 0;
+        });
+        return even.reduce((acc, val) => {
+          return acc + val;
+        });
+      }
+      console.log(even([1, 11, 50, 40, 20, 4]));
+
+      //Shorter way to write it:
+      // const sumEvens = arr => arr.filter(e => !(e % 2)).reduce((a, b) => a + b);
+
+      function test_equal(actual, expected, msg) {
+        if (actual !== expected) {
+          console.log(
+            `Error testing ${msg || ""}. expected: ${expected}, got ${actual}`
+          );
+        }
+      }
+      test_equal(max([3, 5, 77, 2, 62]), 77);
+      test_equal(even([3, 4, 5, 77, 2, 62]), 68);
+      test_equal(avg([3, 5, 4, 5, 5]), 4.4);
+    </script>
+    Question Write the following functions using the reduce built-in function.
+    1. max 2. sum of even numbers 3. average
+  </body>
+</html>
