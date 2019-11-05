@@ -1,7 +1,7 @@
 Javascript basics:
 
 ex1) Task2)
-If in wrap the input as a parseInt it and you type a letter it will give you NaN as the result.
+If I wrap the input as a parseInt and you type a letter it will give you NaN as the result.
 Also the schools solution does so.
 Maybe change it so that the student will set a variable that is a string or a number and then pass it to the flow. So then you can really see what typeof does.
 Also change the task3 solution to be without a parseInt

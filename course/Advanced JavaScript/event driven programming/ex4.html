@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="checkbox" onChange="myFunction()" id="myCheck" />
+    <br />
+    <img
+      src="https://images.unsplash.com/photo-1572830093421-377d162ca866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+      alt=""
+      id="image"
+    />
+    Question Create a webpage that has a checkbox. If the checkbox is checked,
+    make a photo appear. If it is not, make it disappear. Hint: You can use the
+    onchange event on a checkbox element.
+    <script>
+      imgElement.src = "http://new-src.com";
+      function myFunction() {
+        const image = document.getElementById("image");
+
+        if (document.getElementById("myCheck").checked) {
+          image.style.visibility = "visible";
+        } else {
+          image.style.visibility = "hidden";
+        }
+      }
+    </script>
+  </body>
+</html>

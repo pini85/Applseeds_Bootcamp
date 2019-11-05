@@ -14,7 +14,6 @@
 promt = "Type any sentanse: "
 user = input(promt)
 big = ""
-#vowels = 'aeiou'
 vowels = ['a','e','i','o','u']
 for i in user:
     if i in vowels:
@@ -24,3 +23,12 @@ for i in user:
         big = big + i
         print(big)
 print(big)
+
+def capital_vowel():
+    input_str = input("Please write a sentence: ")
+    vowel = ["a", "e", "o", "i", "u", "y"]
+    for i in vowel:
+        input_str = input_str.replace(i, i.upper())
+    return input_str
+
+print(capital_vowel())

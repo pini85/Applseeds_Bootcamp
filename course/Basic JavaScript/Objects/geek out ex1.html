@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var student = {
+        name: "David Cohen",
+        class: "Java",
+        rollno: 5
+      };
+      console.log(student);
+      delete student["rollno"];
+      console.log(student);
+    </script>
+  </body>
+</html>
+Question Write a JavaScript program to delete the rollno property from the
+following object. Print the object before and after deleting the property.
+Sample object: var student = { name : 'David Cohen', class : 'Java', rollno : 5
+}; Example output: before deleting: { name: 'David Cohen', class: 'Java',
+rollno: 5 } after deleting: { name: 'David Cohen', class: 'Java' }

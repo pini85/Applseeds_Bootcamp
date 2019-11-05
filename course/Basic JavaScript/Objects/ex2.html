@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const book1 = {
+        name: "Bla",
+        author: "Pini",
+        year: 2019
+      };
+      const book2 = {
+        name: "Haha",
+        author: "Donkey",
+        year: 2000
+      };
+      const bookUtls = {
+        getFirstPublished: (book, year) => {
+          return book1.year <= book2.year ? book1 : book2;
+        },
+        setLanguage: (book, lan) => {
+          return (book["language"] = lan);
+        },
+        setTranslation: (book, language, translator) => {
+          return (book["translation"] = {
+            translator,
+            language
+          });
+        },
+        setPublisher: (book, name, location) => {
+          return (book["publisher"] = {
+            name,
+            location
+          });
+        },
+        isSamePublisher: (book1, book2) => {
+          if (book1.publisher.name === book2.publisher.name) {
+            return console.log("yes");
+          }
+          return console.log("no");
+        }
+      };
+      bookUtls.getFirstPublished(book1, 2000);
+      bookUtls.setLanguage(book1, "english");
+      bookUtls.setTranslation(book1, "german", "Heroku");
+      bookUtls.setPublisher(book1, "EA", "Helsinki");
+      bookUtls.setPublisher(book2, "EA", "Helsinki");
+      console.log(bookUtls.isSamePublisher(book1, book2));
+      bookUtls.getFirstPublished(book2, 2000);
+      bookUtls.setLanguage(book2, "english");
+      bookUtls.setTranslation(book2, "german", "Heroku");
+      bookUtls.setPublisher(book2, "EA", "Helsinki");
+    </script>
+  </body>
+</html>
+
+Question 1. create 2 book objects with properties: name, author, year. 2. create
+an empty object bookUtils (utils = short for utilities). 3. add to to the
+bookUtils object a function getFirstPublished, that recieves 2 books and returns
+the book with the smaller year. 4. add to to the bookUtils object a function
+setNewEdition, that recieves a book and an edition year and sets a new property
+latestEdition with the edition year, or updates an existing one. 5. add to to
+the bookUtils object a setLanguage function, that recieves a book and a language
+and sets a new property language with the languahe, or updates an existing one.
+6. add to to the bookUtils object a setTranslation function, that recieves a
+book a language and a translator, and sets a new property of translation, which
+is an object that contains the translator and the language. 7. add to to the
+bookUtils object a setPublisher function, that recieves a book a name and a
+location, and sets a new property named publisher, which is an object that
+contains the name and location. 8. add to to the bookUtils object a function
+isSamePublisher, that recieves 2 books and checks if the publisher name and
+location are identical in the 2 books.

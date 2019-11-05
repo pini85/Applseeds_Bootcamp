@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="name">Your name</label>
+    <input type="text" id="name" />
+    <input type="Button" onclick="myFunction()" value="Click me!" />
+    <script>
+      function myFunction() {
+        const name = document.getElementById("name").value;
+        console.log(`Hello ${name}, you clicked me`);
+      }
+    </script>
+  </body>
+</html>
+<!-- Question Create a webpage that has a text input for a name and a button. When
+the button is clicked, make a console log with “Hello
+<name>”. Make sure to have a placeholder in the input field </name> -->

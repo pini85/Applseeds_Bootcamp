@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const school = {
+        teachers: [
+          {
+            name: "Pinchas",
+            subjects: ["chemistry", "biology", "physics"],
+            students: [],
+            capacityLeft: 3
+          },
+          {
+            name: "Williams",
+            subjects: ["history", "ethics"],
+            students: [],
+            capacityLeft: 0
+          }
+        ],
+        students: [
+          {
+            name: "Jennifer"
+          },
+          {
+            name: "Howard"
+          },
+          {
+            name: "Timmy"
+          },
+          {
+            name: "Houston"
+          }
+        ],
+
+        assignStudent: function(student, subject) {
+          const studentObj = school.students.filter(students => {
+            if (students.name === student) {
+              return students;
+            }
+          });
+
+          const teacher = school.teachers.filter(teacher => {
+            if (
+              teacher.capacityLeft > 0 &&
+              teacher.subjects.includes(subject)
+            ) {
+              return teacher;
+            }
+          });
+          const firstAvailableTeacher = teacher[0];
+          if (firstAvailableTeacher) {
+            firstAvailableTeacher.capacityLeft -= 1;
+            firstAvailableTeacher.students.push(studentObj);
+          } else {
+            console.log("Sorry, no available teachers left");
+          }
+        }
+      };
+      school.assignStudent("Jennifer", "history");
+      console.log(school.teachers);
+    </script>
+  </body>
+</html>
+Question Create a school object. Your school has teachers (at least 2) that can
+teach certain subjects and are limited as per how many kids they can teach. The
+teacher’s students need to be tracked. The school also has students (at least 4)
+that need to learn a certain subject (just 1). Create a function called
+"assignStudent" that will check if there is a teacher is available to teach this
+student, and if yes assign that student to the teacher (that student will be
+added to the list of students of that teacher). Assign as many students as
+possible.

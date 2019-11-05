@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var book = {
+        author: "Pini Hodadad",
+        title: "Amazing JS",
+        genre: "Horror",
+        year: 2019,
+        hardCover: false
+      };
+
+      const myFunction = obj => {
+        return `This ${book.title} was written by ${book.author} in the year ${book.year}`;
+      };
+      console.log(myFunction(book));
+    </script>
+    <!-- Question
+    1. Create an object that represents a book. it should have 4-5 properties that make sense for a book to have.
+    2. Then write a function that will return the following description (try also using es6 syntax):
+    ‘The book <book name> was written by <author name> in the year <year first published>’ -->
+  </body>
+</html>

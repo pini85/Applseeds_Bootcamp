@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function createSequence(d) {
+        return {
+          d: d,
+          printElements: function(amount) {
+            var current = 0;
+            for (var i = 0; i < amount; i++) {
+              console.log(current);
+              current += d;
+            }
+          }
+        };
+      }
+
+      createSequence(2).printElements(10);
+      // 0,2,4,6,8,10,12,14,16,18
+
+      createSequence(5).printElements(6);
+      // 0,5,10,15,20,25
+    </script>
+  </body>
+</html>
+Question Write a function called createSequence, that will create arithmetic
+sequence (read about it online!) objects. this function receives 1 parameter d -
+the difference between the elements. It returns an object with 2 properties: 1.
+d - the arithmetic sequence difference. 2. printElements - a function that will
+print the requested number of elements of the arithmetic sequence. The function
+will take 1 parameter, the number of elements to print. * To simplify things,
+all the arithmetic sequences will start at 0. ● print 10 elements of the
+arithmetic sequence with the difference of 2 ● print 6 elements of the
+arithmetic sequence with the difference of 5 Your output should be:
+0,2,4,6,8,10,12,14,16,18 0,5,10,15,20,25

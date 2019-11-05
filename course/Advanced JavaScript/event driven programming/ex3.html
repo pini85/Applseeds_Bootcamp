@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="field">Why are you interested in the job?</label>
+    <br />
+    <textarea rows="10" cols="50" id="field"></textarea>
+    <h5 id="alert"></h5>
+    <br />
+    <button onclick="myFunction()">Click here!</button>
+    <br />
+    Question Create a webpage that has part of an application process for a job.
+    This page should have textarea field, and a button. Your user must enter at
+    least 100 characters before clicking the button. If he didn’t, please give
+    him the appropriate message. (using alert is forbidden)
+    <script>
+      function myFunction() {
+        const text = document.getElementById("field").value;
+        if (text.length < 100) {
+          document.getElementById("alert").innerHTML =
+            "ENTER AT LEAST 100 CHARACTERS";
+        } else {
+          document.getElementById("alert").innerHTML = "";
+        }
+      }
+    </script>
+  </body>
+</html>

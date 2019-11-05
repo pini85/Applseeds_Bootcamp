@@ -3,18 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1257f585-cf72-4b4f-8bc2-aa9c452a8543" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ex13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../course/comments" beforeDir="false" afterPath="$PROJECT_DIR$/../course/comments" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/javascript basics/Arrays &amp; functions/ex1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../course/javascript basics/Arrays &amp; functions/ex1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/javascript basics/Basics/ex1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../course/javascript basics/Basics/ex1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/javascript basics/Basics/ex2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../course/javascript basics/Basics/ex2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/javascript basics/DeBug/ex3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../course/javascript basics/DeBug/ex3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/javascript basics/DeBug/ex5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/javascript basics/DeBug/ninja ex1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../course/javascript basics/DeBug/ninja ex1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/excerise" beforeDir="false" afterPath="$PROJECT_DIR$/../course/excerise" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +53,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.student">
-    <configuration name="Ex10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Ex12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Ex8" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hangman (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="assignment_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,7 +128,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hangman.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,10 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.student" />
-        <item itemvalue="Python.Ex9" />
+        <item itemvalue="Python.Ex12" />
+        <item itemvalue="Python.Ex8" />
+        <item itemvalue="Python.assignment_1" />
         <item itemvalue="Python.Ex13" />
-        <item itemvalue="Python.Ex10" />
-        <item itemvalue="Python.hangman (1)" />
       </list>
     </recent_temporary>
   </component>
