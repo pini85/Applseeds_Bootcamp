@@ -1,16 +1,10 @@
-print("Enter a string: ", end="")
-str = input()
+import math
+n = int(input("please enter a positive number greater than one"))
 
-
-def longestWord(str):
-    max = 0
-    answer = ""
-    temp = str.split(" ")
-    for i in temp:
-        if len(i) > max:
-            max = len(i)
-            answer = i
-    print(answer)
-
-
-longestWord(str)
+for d in range(2, n + 1):
+    prime = True
+    for p in range(2, d):
+        if d % p == 0:
+            prime = False
+    if prime:
+        print(d)

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h4 id="text">Hello everybody!</h4>
+    <button onclick="textSize(event.target)">-</button
+    ><button onclick="textSize(event.target)">+</button>
+
+    <br />
+    Create a webpage that has some text and two buttons with ‘+’ and ‘-‘
+    Clicking the ‘+’ button should increase the text’s font-size and clicking
+    the ‘-‘ should decrease it. Limit the font size to be between 6 and 100.
+    <script>
+      function textSize(element) {
+        var text = element.textContent;
+        var target = document.getElementById("text");
+        var fontSize = parseInt(window.getComputedStyle(target).fontSize);
+
+        if (fontSize < 100 && text === "+") {
+          fontSize += 5;
+          target.style.fontSize = `${fontSize}px`;
+        } else if (fontSize > 6 && text === "-") {
+          fontSize -= 5;
+          target.style.fontSize = `${fontSize}px`;
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1257f585-cf72-4b4f-8bc2-aa9c452a8543" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/comments" beforeDir="false" afterPath="$PROJECT_DIR$/../course/comments" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/excerise" beforeDir="false" afterPath="$PROJECT_DIR$/../course/excerise" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +48,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.student">
-    <configuration name="Ex12" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="191105151520_Python - Assignment #3 - HANGMAN (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex12.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/191105151520_Python - Assignment #3 - HANGMAN (1).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Ex14" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,7 +102,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="assignment_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Ex9" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +123,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.student" />
-        <item itemvalue="Python.Ex12" />
-        <item itemvalue="Python.Ex8" />
-        <item itemvalue="Python.assignment_1" />
         <item itemvalue="Python.Ex13" />
+        <item itemvalue="Python.191105151520_Python - Assignment #3 - HANGMAN (1)" />
+        <item itemvalue="Python.Ex9" />
+        <item itemvalue="Python.Ex14" />
       </list>
     </recent_temporary>
   </component>

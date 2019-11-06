@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>How many smiles do you want to see?</h3>
+    <input type="text" id="input" /><button onclick="smile()">Submit</button>
+    <div id="smiley-container"></div>
+
+    <br />
+    Question Create a webpage with one field and one button. The user can choose
+    the number of smileys, and you have to make them appear on the screen. If
+    the user enters an input that is not a number show him an error message.
+    <script>
+      function smile() {
+        var input = document.getElementById("input").value;
+        console.log(parseInt(input));
+
+        if (isNaN(parseInt(input))) {
+          alert("Not a number");
+        } else {
+          for (let i = 0; i < input; i++) {
+            var img = document.createElement("img");
+            img.src =
+              "https://image.freepik.com/free-icon/smiley_318-121680.jpg";
+            document.getElementById("smiley-container").appendChild(img);
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
