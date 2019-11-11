@@ -2,6 +2,8 @@ JS Basics
 Day 1:
 Exercise 2
 Because exercise 3 and 4 is guessing the output no hands on coding. Also you can show in exercise 2 how to solve the same problem with built in functions if one wanted to.
+Excerise 1
+If 
 
 Day 2:
 Debugging:
@@ -18,10 +20,32 @@ Objects:
 Ex3
 Because this will give you the feel of a real life simulation with the crud principle on objects.
 
+
+
+
 Day 5:
 Event driven programming:
 Ex3
 Because the students can understand they can use string methods on dom values that are stored in variables.
+
+Day 6:
+DOM
+ex2 
+if we would use event.target with the addeventListener its good for them to see this because they will use this alot. 
+If we just target the button then
+ex4
+Because here we use the eventlistener, loop through buttons, remove classnames. Its important for them to understand how this works.
+
+Day 7:
+Advanced JS
+Ex3 booster
+Because the other ones are easier. With all the excerises you don't need to really google anything. But Ex3 demands more.
+
+Day 8:
+Local Storage and 2d arrays
+Ex4
+Local storage question (ex3) is very basic. The most challenging excerise is Ex4 because it really makes you think on how to manipulate 2d arrays with the for loop. A close second is ex1.
+
 
 
 

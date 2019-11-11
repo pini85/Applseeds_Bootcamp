@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name"> <button id="button">Submit</button>
+    <h3 id="text">Hello!what is your name?</h3>
+    <br>
+    Create a webpage that greets a user(can be a simple message "hello <name>").
+            The user name should be stored in the local storage.
+            The user can enter (if it is the first time) or change his name through an html input.
+            Find a creative way to greet the user by his name, using any of the styling techniques we have learned.
+    <script>
+        document.getElementById("button").addEventListener("click", () => {
+            const name = document.getElementById("name").value;
+            document.getElementById("text").innerHTML = `Hello ${name}`;
+            localStorage["name"] = name;
+        })
+       
+        
+        
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .some-container {
+        font-size: 25px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>Some text</div>
+    <div>Some other text</div>
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        target = $("div");
+        target.on("mouseenter", function(event) {
+          $(this).addClass("some-container");
+        });
+        target.on("mouseleave", function(event) {
+          $(this).removeClass("some-container");
+        });
+      });
+    </script>
+  </body>
+</html>
+
+<!-- Question
+In CSS, add the following class:
+.some-container{
+ font-size: 25px;
+}
+Using jQuery, create a web page with the following code:
+<div>
+ Some text
+</div>
+<div>
+ Some other text
+</div>
+Add an event listener to each <div>, so that when the mouse is on it, the some-container class will be added to it.
+Once the mouse is out, remove the class. -->

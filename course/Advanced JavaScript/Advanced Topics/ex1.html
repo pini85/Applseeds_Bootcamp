@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="checkbox" id="hi" />
+    <br />
+    Create a webpage with a checkbox. When clicking on the checkbox, prevent the
+    default event and show instead “sorry this checkbox cannot be checked”
+    <script>
+      var target = document.getElementById("hi");
+      target.addEventListener("click", prevent);
+      function prevent(event) {
+        event.preventDefault();
+        alert("Sorry prevented");
+      }
+
+      //es6 way
+      target.addEventListener("click", e => {
+        e.preventDefault();
+        console.log("prevented with es6");
+      });
+    </script>
+  </body>
+</html>

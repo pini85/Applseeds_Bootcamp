@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button>Stop</button>
+    <div id="number"></div>
+    <br />
+    Question Create a webpage that has a single button in it that says “stop”.
+    Print a number every second until you click on the stop button.
+    <script>
+      let i = 0;
+      var numbers = setInterval(() => {
+        document.getElementById("number").innerHTML = i = i + 1;
+        var target = document.getElementsByTagName("button")[0];
+        target.addEventListener("click", disable);
+      }, 1000);
+      function disable() {
+        window.clearInterval(numbers);
+      }
+    </script>
+  </body>
+</html>

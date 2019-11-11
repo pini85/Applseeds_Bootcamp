@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="text">
+      Thank you for waiting! No one in their right mind would wait for so long
+      for a webpage to load
+    </div>
+
+    <br />
+    Question Create a webpage that has nothing in it. 15 seconds after loading
+    the page, add some text to it saying “Thank you for waiting! No one in their
+    right mind would wait for so long for a webpage to load”.
+    <script>
+      var target = document.querySelector(".text");
+      target.style.visibility = "hidden";
+
+      setInterval(() => {
+        target.style.visibility = "visible";
+      }, 3000);
+    </script>
+  </body>
+</html>

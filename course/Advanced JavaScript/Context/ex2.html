@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const obj = {
+        name: "Pini",
+        func: function() {
+          console.log(this.name);
+        },
+        otherFunc: function() {
+          setTimeout(
+            function() {
+              console.log(this.name);
+            }.bind(this),
+            1000
+          );
+        }
+      };
+      console.log(obj.func());
+      console.log(obj.otherFunc());
+    </script>
+  </body>
+</html>
+<!-- Question
+Create an object with a name property. The object should also have a function that prints its name,
+and another function that prints its name after a second.
+in this exercise, you are not allowed to use arrow functions. -->

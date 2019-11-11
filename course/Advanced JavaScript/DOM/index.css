@@ -1,0 +1,19 @@
+#image {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px 0;
+}
+
+.birds {
+  background-image: url("https://files.allaboutbirds.net/wp-content/uploads/2015/06/prow-featured.jpg");
+}
+
+.dogs {
+  background-image: url("http://santansun.com/wp-content/uploads/2018/11/5b7fdeab1900001d035028dc.jpeg");
+}
+
+.bears {
+  background-image: url("https://www.wikiality.com/file/2016/11/bears1.jpg");
+}

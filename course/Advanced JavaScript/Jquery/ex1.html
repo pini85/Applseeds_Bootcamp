@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="#">Link1</a>
+    <a href="#">Link2</a>
+    <a href="#">Link3</a>
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        const links = $("a");
+        //ex1
+        $("a").css("font-family", "Courier New");
+        //ex2
+        const secondLink = $("body")
+          .children()
+          .eq(1);
+        secondLink.attr("href", "https://www.itc.tech");
+        //ex3
+        const thirdLink = $("a:nth-child(3)");
+        thirdLink.css("color", "salmon");
+        //ex4
+        $("body").css("background-color", "lightblue");
+      });
+      //   $("a").css("font-family", "Courier New");
+      //     $("a:nth-child(2)").attr("href", "https://www.itc.tech");
+      //     $("a:nth-child(3)").css("color", "salmon");
+      //     $(document.body).css("background-color", "lightblue");
+    </script>
+  </body>
+</html>
+<!-- Create a webpage with 3 links that contain text.
+1. Using jQuery, change the font of all of them to Courier New.
+2. Using jQuery, change the URL of the second link to "https://www.itc.tech".
+3. Using jQuery, change the color of the third link to salmon using the nth child selector.
+4. Using jQuery, change the background color of the page to lightblue. -->

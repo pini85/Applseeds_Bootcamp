@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .blue-bg {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="blue-bg">
+      Text
+    </div>
+    <div>Other text</div>
+    <button>toggle party</button>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        const test = $(":button");
+        console.log(test);
+
+        $(":button").on("click", function(event) {
+          $("div").toggleClass("blue-bg");
+        });
+      });
+    </script>
+  </body>
+</html>
+<!-- Question
+In CSS, add the following class:
+.blue-bg{
+ background-color: blue;
+}
+In HTML, use the following code:
+<div class="blue-bg">
+ Text
+</div>
+<div> Other text</div>
+Create a toggle party:
+add a button that removes the blue-bg class from the divs that have it, and adds it to those who don’t. -->

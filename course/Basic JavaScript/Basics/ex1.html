@@ -27,13 +27,12 @@
       // }
 
       //Ex 2
-      // var x = parseInt(prompt("Enter text or number"));
-      var x = 5;
+      var x = prompt("Enter text or number");
 
-      if (typeof x === "string") {
+      if (isNaN(parseInt(x))) {
         console.log(x + "!!!");
-      } else if (typeof x === "number") {
-        console.log(x + 5);
+      } else {
+        console.log(parseInt(x) + 5);
       }
 
       // let x = parseInt(prompt("Enter text or number"));

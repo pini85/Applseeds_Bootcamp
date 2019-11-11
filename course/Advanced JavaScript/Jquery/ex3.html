@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .some-container {
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        const text = ["This is some text", "this is also some text"];
+        var navBar = $("<ul/>");
+        for (let i = 0; i < 2; i++) {
+          var navBar = $("<div/>");
+          $("body").append(navBar);
+          navBar.append(text[i]);
+        }
+        setTimeout(() => {
+          $("div").addClass("some-container");
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>
+<!-- In css, add the following class:
+.some-container{
+ font-size: 25px;
+}
+Using jQuery, create a web page with the following code:
+<div>
+ Some text
+</div>
+<div>
+ Some other text
+</div>
+After 5 seconds of the document.ready event, add the .some-container class to all the <div>s in the document. -->

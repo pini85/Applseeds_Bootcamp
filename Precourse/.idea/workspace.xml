@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1257f585-cf72-4b4f-8bc2-aa9c452a8543" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/Advanced JavaScript/DOM/ex2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../course/Advanced JavaScript/DOM/ex2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/Basic JavaScript/Basics/ex1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../course/Basic JavaScript/Basics/ex1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/comments" beforeDir="false" afterPath="$PROJECT_DIR$/../course/comments" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/excerise" beforeDir="false" afterPath="$PROJECT_DIR$/../course/excerise" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,27 +51,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.student">
-    <configuration name="191105151520_Python - Assignment #3 - HANGMAN (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Precourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/191105151520_Python - Assignment #3 - HANGMAN (1).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Ex13" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Ex7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,7 +84,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Ex8" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,7 +105,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_pydev_execfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Precourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,10 +159,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.student" />
+        <item itemvalue="Python.Ex7" />
+        <item itemvalue="Python._pydev_execfile" />
+        <item itemvalue="Python.Ex8" />
         <item itemvalue="Python.Ex13" />
-        <item itemvalue="Python.191105151520_Python - Assignment #3 - HANGMAN (1)" />
-        <item itemvalue="Python.Ex9" />
-        <item itemvalue="Python.Ex14" />
       </list>
     </recent_temporary>
   </component>

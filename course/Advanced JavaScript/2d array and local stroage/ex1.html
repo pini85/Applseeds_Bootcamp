@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <br />
+    write a function that receives an array of numbers and find the 2 numbers
+    that are closest to each other. i.e: [1,11,45,67,4,94,62,47] => 45,47
+    <script>
+      const findClosest = array => {
+        let values = [];
+        let difference = Infinity;
+        let temp = 0;
+
+        for (let i = 0; i < array.length; i++) {
+          for (let j = 1; j < array.length; j++) {
+            if (array[i] !== array[j]) {
+              let temp = array[i] - array[j];
+              temp = Math.abs(temp);
+
+              if (temp < difference) {
+                difference = temp;
+                values = [];
+                values = [array[i], array[j]];
+              }
+            }
+          }
+        }
+        return values;
+      };
+      const array = [1, 11, 45, 67, 4, 94, 62, 47];
+      findClosest(array);
+    </script>
+  </body>
+</html>

@@ -1,10 +1,7 @@
-import math
-n = int(input("please enter a positive number greater than one"))
-
-for d in range(2, n + 1):
-    prime = True
-    for p in range(2, d):
-        if d % p == 0:
-            prime = False
-    if prime:
-        print(d)
+number = 0
+while number < 100:
+    result = number / 7
+    print(number)
+    number = number + 1
+    if result in range(1, 15):
+        print(result, "Boom")

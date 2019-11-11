@@ -2,8 +2,9 @@ Javascript basics:
 
 ex1) Task2)
 If I wrap the input as a parseInt and you type a letter it will give you NaN as the result.
-Also the schools solution does so.
-Maybe change it so that the student will set a variable that is a string or a number and then pass it to the flow. So then you can really see what typeof does.
+Also the schools solution does so. Please look at my solution.
+Maybe change it so that the student will set a variable that is a string or a number and then pass it to the flow. So then you can really see what typeof does. this is easier. Or was it meant to be more challenging? Im guessing not, because this is just the first excerise.
+
 Also change the task3 solution to be without a parseInt
 
 
@@ -15,4 +16,5 @@ Dom
 
 ex2)
 Schools solution is way off.
-My solution is trying to solve it with the basic knoweldge of the information provided with the lecture. Not going with eventListeners because that is a deep subject.
+
+
