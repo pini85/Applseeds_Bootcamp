@@ -8,21 +8,22 @@
   </head>
   <body>
     <script>
+      const input = prompt("Enter string:");
+      // function palindrome(str) {
+      //   const string = str.toLowerCase();
+
+      //   return (
+      //     Array.from(string).toString() ===
+      //     Array.from(string)
+      //       .reverse()
+      //       .toString()
+      //   );
+      // }
+
       function palindrome(str) {
         const string = str.toLowerCase();
-
-        return (
-          Array.from(string).toString() ===
-          Array.from(string)
-            .reverse()
-            .toString()
-        );
-      }
-
-      function palindrome(str) {
-        const string = str.toLowerCase();
-        console.log(string.split(""));
-        console.log(string.split("").reverse());
+        string.split("");
+        string.split("").reverse();
         return (
           string.split("").toString() ===
           string
@@ -31,7 +32,6 @@
             .toString()
         );
       }
-      const input = prompt("Enter string:");
       console.log(palindrome(input));
     </script>
   </body>

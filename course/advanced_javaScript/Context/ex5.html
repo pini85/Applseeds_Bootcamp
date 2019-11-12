@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var hero = {
+        health: 5,
+        power: 68,
+        getStrength: function() {
+          if (this.health <= 5) {
+            return this.power - 10;
+          } else return this.power;
+        }
+      };
+      function whoIsStronger(getStrength) {
+        var myStrength = 82;
+        if (getStrength() < myStrength) {
+          return "I am stronger";
+        } else return "You are stronger";
+      }
+
+      console.log(whoIsStronger(hero.getStrength.bind(hero)));
+    </script>
+  </body>
+</html>
+<!-- Question
+We are trying to check who is stronger. but for some reason, we get the "you are stronger" print
+even though the myStrength variable is bigger.
+1. What is wrong with the code? explain in your own words
+2. Fix the code so that invoking the whoIsStronger function will print "I am stronger".
+note: you cannot change the 'hero' or the whoIsStronger function.
+var hero = {
+ health: 5,
+ power: 68,
+ getStrength: function(){
+ if (this.health <= 5){
+ return this.power - 10;
+ } else return this.power;
+ }
+}
+function whoIsStronger(getStrength){
+ var myStrength = 82;
+ if (getStrength() < myStrength){
+ return "I am stronger";
+ } else return "You are stronger";
+}
+whoIsStronger(hero.getStrength); -->

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function transpose(arr) {
+        var arrTranspose = [];
+        for (var row = 0; row < arr.length; row++) {
+          for (var col = 0; col < arr[row].length; col++) {
+            if (arrTranspose[col] === undefined) {
+              arrTranspose[col] = [];
+            }
+            arrTranspose[col][row] = arr[row][col];
+          }
+        }
+        return arrTranspose;
+      }
+    </script>
+  </body>
+</html>
+<!-- 
+// Question // write a function that for a matrix A returns the transpose of A.
+// transpose is an operation that flips a matrix over it's diagonal. link:
+https://en.wikipedia.org/wiki/Transpose // Examples: // 1 2 => 1 3 // 3 4 2 4 //
+1 2 3 => 1 4 // 4 5 2 5 // 3 -->
