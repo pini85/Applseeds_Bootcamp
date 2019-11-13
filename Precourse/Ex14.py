@@ -1,15 +1,12 @@
-# array = [1, 2, 3, 4, 5]
-# my_list = list(array)
-# for item in my_list:
-#     print(item)
-import string
-import random
+import re
+def prime():
 
+    allprimes = int(input("print a positive number:"))
+    for num in range(2, allprimes):
+            for i in range(2, num):
+                if num % i == 0:
+                   break
+            else:
+               print(num)
 
-def list_of_5():
-    list_5 = random.sample(string.printable, 5)
-    for item in list_5:
-        print(item)
-
-
-list_of_5()
+prime()

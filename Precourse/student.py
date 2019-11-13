@@ -1,10 +1,14 @@
-import re
+def reverse(mylist):
+    high = len(mylist) - 1
+    print(high)
+    middle = int(len(mylist) / 2)
+    for x in range(0, middle):
+        temp = mylist[x]
+        mylist[x] = mylist[high]
+        mylist[high] = temp
+        high -= 1
+    print(mylist)
 
-user_input = input("Hello, please enter something:\n")
-string = re.sub('a', 'A', user_input)
-string = re.sub('e', 'E', string)
-string = re.sub('i', 'I', string)
-string = re.sub('o', 'O', string)
-string = re.sub('u', 'U', string)
-string = re.sub('y', 'Y', string)
-print(string)
+
+mylist = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,1,100,"gi"]
+reverse(mylist)

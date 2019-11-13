@@ -27,7 +27,11 @@
       };
       function getCandy(candyStore, id) {
         return candyStore.candies.find(i => {
-          return i.id === id;
+          if (id === i.id) {
+            return i;
+          } else if (id !== i.id) {
+            alert("Candy not found!");
+          }
         });
       }
       console.log(
