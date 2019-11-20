@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1257f585-cf72-4b4f-8bc2-aa9c452a8543" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex16.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/Basic JavaScript/Basics/ex1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../course/Basic JavaScript/Basics/ex1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +49,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Ex14">
-    <configuration name="Ex14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.student">
+    <configuration name="Ex10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +62,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Ex13" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,7 +83,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HangedMan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Ex15" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,7 +104,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HangedMan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex15.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_pydev_execfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Ex18" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Precourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex18.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Ex14" />
-        <item itemvalue="Python.HangedMan" />
         <item itemvalue="Python.student" />
-        <item itemvalue="Python.Ex7" />
-        <item itemvalue="Python._pydev_execfile" />
+        <item itemvalue="Python.Ex18" />
+        <item itemvalue="Python.Ex13" />
+        <item itemvalue="Python.Ex10" />
+        <item itemvalue="Python.Ex15" />
       </list>
     </recent_temporary>
   </component>

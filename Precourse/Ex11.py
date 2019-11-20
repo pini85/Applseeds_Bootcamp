@@ -9,6 +9,10 @@ for i in x:
 if x != y:
     print("It is not")
 
+
+def id_palindrome(s):
+    return s == s[::-1]
+
 # x = input("type:")
 # array = []
 # result = ""

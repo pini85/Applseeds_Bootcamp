@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Book {
+        constructor(title, author, isRead) {
+          this.title = title;
+          this.author = author;
+          this.isRead = isRead;
+        }
+      }
+      const book1 = new Book("long way from home", "pinchas Hodadad", true);
+      const book2 = new Book("Saving private Ryan", "Stephen Steilberg", false);
+      const book3 = new Book("Gypsies", "Stephen Steilberg", false);
+      const display = obj => {
+        for (prop in obj) {
+          console.log(`${obj.title} by ${obj.author}`);
+        }
+      };
+      console.log(display(book1));
+    </script>
+  </body>
+</html>
+<!-- Keep track of which books you read and which books you want to read!
+● Create a book object, where each object describes a book and has properties for the title, the author and
+whether or not you have already read this book
+● Create a few instances of this object
+● Create a global method that logs the book title and book author like so: "The Hobbit by J.R.R. Tolkien".
+● Write a function that logs all the books that have not been read yet, and call it. -->

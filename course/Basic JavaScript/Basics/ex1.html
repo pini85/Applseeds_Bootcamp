@@ -27,13 +27,13 @@
       // }
 
       //Ex 2
-      var x = prompt("Enter text or number");
+      // var x = prompt("Enter text or number");
 
-      if (isNaN(parseInt(x))) {
-        console.log(x + "!!!");
-      } else {
-        console.log(parseInt(x) + 5);
-      }
+      // if (isNaN(parseInt(x))) {
+      //   console.log(x + "!!!");
+      // } else {
+      //   console.log(parseInt(x) + 5);
+      // }
 
       // let x = parseInt(prompt("Enter text or number"));
       // console.log(typeof x);
@@ -54,6 +54,11 @@
       // } else {
       //   console.log("they are not");
       // }
+      const word = "Hello how are you tooooooday";
+      const x = word.split(" ").reduce((a, b) => {
+        return a.length > b.length ? a : b;
+      });
+      console.log(x);
     </script>
   </body>
 </html>

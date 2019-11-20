@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Player {
+        constructor(name) {
+          this.name = name;
+          this.score = 0;
+        }
+      }
+      const play = player => {
+        const number = Math.floor(Math.random() * 11);
+
+        return number % 2 === 0 ? (player.score += 1) : "";
+      };
+      const threeTimes = () => {
+        for (let i = 0; i < 3; i++) {
+          play(player1);
+        }
+      };
+      const player1 = new Player("Pini");
+      threeTimes();
+      console.log(player1);
+    </script>
+  </body>
+</html>
+<!-- Question
+create Player class.
+It should have the following attributes:
+name
+score – set to 0 at creation
+1. Create a player instance.
+2. make sure that his score equals to 0 (using code!)
+3. write a play function: play(player)
+Function description:
+generate a random number between 1-10
+if the number if even, the player wins -> increment the player score by 1.
+Write a global function that will run the play function 3 times and returns the player's final score. -->

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Jewel {
+        constructor(type, price) {
+          (this.type = type), (this.price = price);
+        }
+      }
+      const x = new Jewel("diamond", 200);
+      const y = new Jewel("Ruby", 100);
+      const getHigherPrice = (x, y) => {
+        return x.price > y.price ? x : y;
+      };
+      const yup = getHigherPrice(x, y);
+      console.log(yup);
+    </script>
+  </body>
+</html>
+<!-- Write a global function getHigherPrice that receives 2 Jewels and returns the higher price.
+For example:
+for input
+new Jewel("ring", 200), new Jewel("bracelet", 300)
+the function should return 300. -->
