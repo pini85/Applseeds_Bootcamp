@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Player {
+        constructor(name, score = 0) {
+          this.name = name;
+          this.score = score;
+        }
+        didWin(score) {
+          console.log(score);
+
+          return score > 32;
+        }
+        checkIfPlayerWon() {
+          if (this.didWin()) {
+            console.log(`player ${this.name} won`);
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
+<!-- Question
+Use the Player class.
+Add a checkIfPlayerWon method that checks
+if a player won and if he did prints a message
+"player <player name> won!"
+player name – the name of the player.
+Then:
+1. Create a player instance.
+2. Set its score to 32.
+3. Call the checkIfPlayerWon method -->

@@ -7,7 +7,45 @@
     <title>Document</title>
   </head>
   <body>
-    <script></script>
+    <script>
+      class Shape {
+        constructor(type) {
+          this.type = type;
+        }
+      }
+      const calcShapeArea = shape => {
+        if (shape.type === "circle") {
+          return circle.calcArea(circle.radius);
+        } else if (shape.type === "square") {
+          return square.calcArea(square.edgeLength);
+        }
+      };
+
+      //Circle
+      const circle = new Shape("circle");
+      circle.radius = 3;
+      circle.calcArea = radius => {
+        return Math.PI * Math.pow(radius, 2);
+      };
+      circle.calcArea2 = function() {
+        return Math.PI * Math.pow(this.radius, 2);
+      };
+
+      //Square
+      const square = new Shape("square");
+      square.edgeLength = 5;
+      square.calcArea = area => {
+        return area * area;
+      };
+      square.calcArea2 = function() {
+        return this.edgeLength * this.edgeLength;
+      };
+      //Had a problem here with arrow functions. this points to the window option. but es5 it points to the object.
+
+      const calcShapeArea2 = shape => shape.calcArea2();
+
+      console.log(calcShapeArea2(circle));
+    </script>
   </body>
 </html>
 <!-- 1. Create a Shape class with properties: type, color.

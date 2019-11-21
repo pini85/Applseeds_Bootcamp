@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Player {
+        constructor(name, score = 0) {
+          this.name = name;
+          this.score = score;
+        }
+        didWin(score) {
+          console.log(score);
+
+          return score > 32 ? console.log("you win") : console.log("you lost");
+        }
+      }
+      const test = new Player("Pini", 33);
+      //   test.didWin(test.score);
+      //or
+      test.score = 6;
+      console.log(test.score);
+    </script>
+  </body>
+</html>
+<!-- Question
+Create Player class.
+It should have the following attributes:
+Name – will be an argument of the constructor
+Score – set to 0 at creation
+and a method didWin - that checks if the score is higher than 30.
+1. Create a player instance.
+2. Set its score to 32.
+3. Invoke the didWin method. -->

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Shoes {
+        constructor(name, sizes) {
+          this.name = name;
+          this.sizes = sizes;
+        }
+        isSizeAvailable(size) {
+          return this.sizes.indexOf(size) !== -1;
+        }
+      }
+      const shoe = new Shoes("Adidas", [33, 36, 40, 44]);
+    </script>
+  </body>
+</html>
+<!-- Create Shoes constructor.
+It should have the following attributes:
+name, available sizes and a method that checks if a specific size is available.
+Create an instance.
+For that instance check to see if a specific size is available.
+Check once for an available size, and once for an unavailable size.
+For example we could have shoes called “star Shoes” with available sizes: 36,38,44.
+so when we check if size 36 is available we get true.
+When we check if size 46 is available we get false. -->

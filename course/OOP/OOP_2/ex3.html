@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Account {
+        constructor(sum) {
+          this.sum = sum;
+        }
+        deposit(value) {
+          this.sum += value;
+        }
+        withdraw(value) {
+          this.sum -= value;
+        }
+        canWithdraw(value) {
+          return value > this.sum;
+        }
+      }
+      const lottery = account => {
+        if (account.sum > 99) {
+          const number = Math.floor(Math.random() * 100);
+          console.log(number);
+          const isWon = !Math.round(Math.random());
+          if (number == isWon) {
+            account.deposit(30);
+          } else {
+            account.withdraw(number);
+          }
+        } else {
+          console.log("sorry");
+        }
+      };
+
+      const account = new Account(200);
+      console.log(account);
+      for (let i = 0; i < 3; i++) {
+        lottery(account);
+      }
+      console.log(account);
+    </script>
+  </body>
+</html>
+<!-- Question
+1. Create an Account class, with a property: sum.
+The class will have 3 methods:
+deposit(value) - deposit money to the account. Increase the sum.
+withdraw(value) - withdraw money from the account. Decrease the sum.
+canWithdraw(value) - check if the amount can be withdrawn from the account without reaching a minus. Returns
+boolean.
+2. create a lottery function: lottery(account)
+The lottery flow is as follows:
+● check that the participant can withdraw 100 dollars. If not print a message and exit.
+● draw a random number from 0-100.
+● decide randomly if the participant won or lost.
+● in case the participant won - deposit the sum + 30 to the account.
+● in case the participant lost - withdraw the sum from the account.
+3. create an account instance, and play the lottery 5 times.
+4. print the final sum -->

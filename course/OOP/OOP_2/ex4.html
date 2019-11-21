@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Plant {
+        constructor(name, color, seasons, doesBlossom) {
+          this.name = name;
+          this.color = color;
+          this.seasons = seasons;
+          this.doesBlossom = doesBlossom;
+        }
+
+        doesBlossomInSeason(season) {
+          return this.doesBlossom && this.seasons.indexOf(season) !== -1;
+        }
+      }
+
+      const p1 = new Plant("Anemone", "red", ["autumn"], true);
+      const p2 = new Plant("tulip", "red", ["spring"], true);
+      const p3 = new Plant("Boston fern", "green", ["spring", "summer"], false);
+
+      var plants = [p1, p2, p3];
+      console.log(plants);
+    </script>
+  </body>
+</html>
+<!-- Question
+1. create a Plant class for a greenhouse
+The greenhouse has customers that wants to buy flowers according to the following parameters:
+- season
+- color
+- if they blossom
+2. create a set of plants that the greenhouse has.
+3. create a function (not in the Plant class) that returns all the plants that are blossoming
+in a specific season. -->
