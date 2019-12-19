@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body >
+    <div class="title">
+        <h1>Check If You Are Actually Depressed Or Just Lazy</h1>
+    </div>
+    <div class="sol">
+        <p id="solution" style="font-size: 3vh;"></p>
+        <img id="sol" style="max-width: 200px; max-height: 200px;">
+    </div>
+    <div class="container">
+        <p id="question"></p>
+        <img id="bigImg" src="./img/joker.jpg">
+        <div class="buttons" style="display:none">
+            <div class="ans" id="btn0" onclick="choice(0);"></div>
+            <div class="ans" id="btn1" onclick="choice(1);"></div>
+            <div class="ans" id="btn2" onclick="choice(2);"></div>
+            <div class="ans" id="btn3" onclick="choice(3);"></div>
+        </div>
+    </div>
+    <button id="start" onclick="start()">Start</button>
+
+
+    <script src="./quiz.js"></script>
+</body>
+
+</html>

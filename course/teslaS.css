@@ -1,0 +1,541 @@
+body,
+html {
+  display: block;
+  position: fixed;
+  text-decoration: none;
+  /* width: 100%; */
+  height: 100vh;
+  font-family: Gotham Bold, system, sans-serif;
+  /* overflow: hidden; */
+  /* background: #333; */
+  margin: 0;
+}
+
+.backgraund {
+  background-image: url(https://www.tesla.com/ns_videos/homepage/main_hero_homepage_desktop.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  animation: animateBg forwards 2s ease-in;
+}
+@keyframes animateBg {
+  from {
+    background-size: 100%;
+  }
+  to {
+    background-size: 180%;
+  }
+}
+
+.page2 {
+  background-image: url(https://www.tesla.com/ns_videos/homepage/homepage_energy_hero_desktop.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 100%;
+}
+
+.page3 {
+  height: 100%;
+  position: relative;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  /* bottom: 0; */
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+}
+
+.page5 {
+  background-image: url(https://www.tesla.com/sites/tesla/files/curatedmedia/blue-hero-desktop.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 100%;
+}
+
+.menu {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.menu .topmenu {
+  display: inline-block;
+  height: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: large;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.menu .topmenu:hover {
+  color: lightgrey;
+}
+
+.logo {
+  position: fixed;
+  top: 7px;
+  left: 0;
+  height: 15px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 7;
+  display: block;
+}
+
+.sidepanel {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 650px;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: left;
+}
+
+.sidepanel a {
+  padding: 8px 8px 19px 32px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.container {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 20px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.top-head {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 90px;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.buttons-order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.but1 > a {
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px inset;
+  outline-color: initial;
+  text-decoration: none;
+  border: 2.5px solid black;
+  border-radius: 40px;
+  padding: 10px 10px;
+  background: transparent;
+  display: block;
+  min-width: 220px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.but2 > a {
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px inset;
+  outline-color: initial;
+  text-decoration: none;
+  border: 2.5px solid black;
+  border-radius: 40px;
+  padding: 10px 10px;
+  background: transparent;
+  display: block;
+  min-width: 220px;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
+.but3 > a {
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.but1:hover {
+  background: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.but2:hover {
+  background: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.but3 > a:hover {
+  color: lightgrey;
+}
+
+.foot {
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  margin-top: 30%;
+}
+
+.toptext {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 110px;
+}
+
+.toptext .up {
+  font-family: cursive;
+  font-size: 50px;
+}
+
+.toptext .down {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: large;
+}
+
+.button-order {
+  flex-flow: row nowrap;
+  justify-content: center;
+  display: flex;
+}
+
+.but4 > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: 2.5px solid black;
+  border-radius: 40px;
+  padding: 10px 10px;
+  display: block;
+  text-align: center;
+  min-width: 220px;
+  box-sizing: border-box;
+}
+
+.but4:hover {
+  background: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+/* 
+.accessories>span{
+    position: absolute;
+    margin-top: 10%;
+    right: 40%;
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 55px;
+    font-weight: bold
+}
+
+.but5>a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2.5px solid black;
+    border-radius: 40px;
+    padding: 10px 10px;
+    position: absolute;
+    text-align: center;
+    min-width: 220px;
+    box-sizing: border-box;
+    margin-top: 14%;
+    right: 44%;
+    display: block;
+    
+}
+
+.but5:hover{
+    background: black;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: #111;
+} */
+.accessories {
+  display: flex;
+
+  flex-flow: column nowrap;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 170px;
+  z-index: 2;
+  position: absolute;
+  left: calc(100% - 60%);
+}
+
+.accessories .accesstesla {
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: large;
+}
+
+.shopnow {
+  flex-flow: row nowrap;
+  justify-content: center;
+  display: blok;
+  position: absolute;
+  left: 44%;
+  padding-top: 14%;
+}
+
+.but5 > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: 2.5px solid black;
+  border-radius: 40px;
+  padding: 10px 10px;
+
+  text-align: center;
+  min-width: 220px;
+  box-sizing: border-box;
+  position: absolute;
+  vertical-align: middle;
+}
+
+.but5:hover {
+  background: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.header {
+  display: flex;
+
+  flex-flow: column nowrap;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 170px;
+}
+
+.header .tesla {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: large;
+}
+
+.header .modely {
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: large;
+}
+
+.ordersbutton {
+  flex-flow: row nowrap;
+  justify-content: center;
+  display: flex;
+}
+
+.but6 > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: 2.5px solid black;
+  border-radius: 40px;
+  padding: 10px 10px;
+  display: block;
+  text-align: center;
+  min-width: 220px;
+  box-sizing: border-box;
+}
+
+.but6:hover {
+  background: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.footconteiner {
+  background: #333;
+  box-sizing: border-box;
+  height: 63px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+  font-family: cursive;
+  display: block;
+  height: 25px;
+  padding: 18px 0;
+}
+
+.footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px;
+}
+.footer a:hover {
+  color: lightgrey;
+}
+
+.skrllr-wrapper {
+  position: relative;
+  display: block;
+  width: 100vw;
+  height: 100%;
+  padding: 0;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.skrllr-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper {
+  height: 100% !important;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main-menu {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-decoration: none;
+}
+
+.pagination {
+  display: block;
+  left: 0px;
+  margin-top: -78px;
+  position: fixed;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+.pagination li {
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  width: 100px;
+  padding-bottom: 0;
+  pointer-events: visible;
+  list-style: none;
+}
+li a {
+  color: #ffffff;
+  font-family: Gotham Bold, system, sans-serif;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  opacity: 0;
+}
+
+li a:hover,
+li a.active {
+  opacity: 1;
+}
+@media (max-width: 950px) {
+  .menu .topmenu {
+    display: inline-block;
+    height: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: large;
+    margin-top: 7px;
+    cursor: pointer;
+    opacity: 0;
+  }
+  .backgraund {
+    background-image: url(https://www.tesla.com/ns_videos/homepage/main_hero_homepage_desktop.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    animation: animateBg forwards 2s ease-out;
+  }
+  @keyframes animateBg {
+    display: none;
+  }
+  .foot {
+    color: #ffffff;
+    display: flex;
+
+    position: absolute;
+    bottom: 0;
+    vertical-align: bottom;
+  }
+}
+@media (max-width: 500px) {
+  .buttons-order {
+    flex-flow: column;
+    justify-content: center;
+    display: flex;
+  }
+  .but1 > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2.5px solid black;
+    border-radius: 40px;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    min-width: 220px;
+    box-sizing: border-box;
+  }
+
+  .but2 > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2.5px solid black;
+    border-radius: 40px;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    min-width: 220px;
+    box-sizing: border-box;
+  }
+}

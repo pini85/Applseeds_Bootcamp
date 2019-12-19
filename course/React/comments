@@ -1,0 +1,13 @@
+Teach them { img id } = props
+This is also in the first slides. So they won't get confused.
+{...array}
+They should know export and import modules mean
+They should know filter,map at the very least.
+
+Basics 1 ex2)
+Already nested components
+Keys
+Looping over objects for multiple components
+
+Basics 1 ex3)
+Should be before ex2 because we are dealing with nesting components which we should do in ex2

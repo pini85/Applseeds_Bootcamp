@@ -8,7 +8,9 @@ Maybe change it so that the student will set a variable that is a string or a nu
 Also change the task3 solution to be without a parseInt
 
 
-- I believe Geek out ex4 is harder than Geek out ex5. Maybe switch them around?
+- I believe Geek out ex4 is harder than Geek out ex5. Maybe switch them around?:
+
+Objects ex3 test for buying candy is off
 
 Advanced JavaScript
 
@@ -16,5 +18,13 @@ Dom
 
 ex2)
 Schools solution is way off.
+
+
+//////Course started/////
+It is misleading to make a geekout question to make a layout wth only aboslute and relative. They willl get used to the wrong way!
+Debugging should be after arrays,functions and hashes so they understand how the right syntax works!
+
+advanced js last geekout hannukia what do you mean by groups
+
 
 
