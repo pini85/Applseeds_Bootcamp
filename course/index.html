@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>W5L1star3</title>
+  </head>
+
+  <body>
+    <script>
+      var wolverine = {
+        birth_year: 1888,
+        printBirthYear: function() {
+          console.log(this.birth_year);
+        }
+      };
+      birth_year = 1900;
+      wolverine.printBirthYear.call(this.birth_year);
+    </script>
+  </body>
+</html>

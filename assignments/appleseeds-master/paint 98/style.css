@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body,html {
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background-color: #c0c0c0;
+    display: flex;
+    height: 20px;
+}
+.navbutton::first-letter {
+    text-decoration: underline;
+  }
+.navbutton, .pencil-case{
+    background-color: #c0c0c0;
+    font-family: sans-serif;
+}
+.navbutton{
+    border: none;
+}
+.pencil-case:hover, .navbutton:hover, .color:hover{
+    border: 1px grey solid;
+    box-shadow: 2px 2px 0 0 grey;
+}
+button:focus {outline:0;}
+
+
+.bottom, .up{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-flow: column;
+    background-color: #c0c0c0;
+    font-family: sans-serif;
+}
+.page-coloring{
+   width: 600px; 
+}
+.pencil-case, .color{
+    height: 19px;
+    width: 19px;
+}
+
+.middle-body{
+    background-color:#c0c0c0 ;
+    padding: 4px;
+    display: flex;
+
+}
+.whiteboard{
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(143, 140, 140);
+}
+.paint-board{
+    background-color: white;
+    width: 900px;
+    height: 500px;
+    border: black 1px solid;
+    box-shadow: 2px 2px 0 0 black;
+}
+.page-colors{
+    background-color: #c0c0c0;
+    display: flex;
+    height: 50px;
+    justify-content: right;
+    flex-direction: row;
+}
+.colors {
+    justify-content: right;
+    display: inline;
+    margin-left: 50px;
+}
+.black{
+    background-color: black;
+}
+.grey{
+    background-color: grey;
+}
+.brown{
+    background-color: brown;
+}
+.green{
+    background-color: green;
+}.yellow{
+    background-color: yellow;
+}.blue{
+    background-color: blue;
+}.red{
+    background-color: red;
+}.orange{
+    background-color: orange;
+}.purple{
+    background-color: purple;
+}.pink{
+    background-color: pink;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
