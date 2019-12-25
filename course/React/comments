@@ -3,6 +3,7 @@ This is also in the first slides. So they won't get confused.
 {...array}
 They should know export and import modules mean
 They should know filter,map at the very least.
+They should know what async and await means
 
 Basics 1 ex2)
 Already nested components
@@ -11,3 +12,12 @@ Looping over objects for multiple components
 
 Basics 1 ex3)
 Should be before ex2 because we are dealing with nesting components which we should do in ex2
+
+Basics 2) Lecture)
+It says if we have an array we should not give the key as index. But online says yes?
+
+They say nothing about async await. Only with an example of fetching data and all of the sudden there is one example of async and await
+
+HTTP ex2)
+Show them how to do a cryd operation.
+

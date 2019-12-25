@@ -6,10 +6,8 @@ const Messages = () => {
 
   return (
     <div>
-      {data.map(message => {
-        console.log(message);
-
-        return <div>{message}</div>;
+      {data.map((message, i) => {
+        return <div key={i}>{message}</div>;
       })}
     </div>
   );

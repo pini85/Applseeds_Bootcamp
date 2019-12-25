@@ -69,6 +69,11 @@ describe("Candy shop evaluation", () => {
     });
   });
 });
+const myFunction = (array, type) => {
+  array.filter(item => {
+    return item.type === type;
+  });
+};
 
 // describe("Candy Store", function () {
 //   describe("get candy", function () {

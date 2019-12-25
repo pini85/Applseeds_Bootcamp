@@ -8,27 +8,16 @@
   </head>
 
   <body>
-    <div id="container">
-      <ul id="list-container">
-        <li class="list">1</li>
-        <li class="list">2</li>
-        <li class="list">3</li>
-      </ul>
-      <a href=""></a>
-      <img src="dfsg" alt="" />
-      <img src="dfsfdfsgdg" alt="" />
-      <img src="dfdfgdfgdfgdsg" alt="" />
-
-      <button class="button" class="button">
-        click me
-      </button>
-    </div>
     <script>
-      let x = 5;
-      x = 6;
-      console.log(x);
+      const getIDS = new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve([532, 543, 753, 1, 5]);
+        }, 1500);
+      });
+
+      getIDS.then(IDs => {
+        console.log(IDs);
+      });
     </script>
   </body>
 </html>
-
-const
