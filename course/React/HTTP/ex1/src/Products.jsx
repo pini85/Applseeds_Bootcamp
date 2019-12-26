@@ -27,8 +27,8 @@ class Products extends React.Component {
     await addProduct(newItem).then(() => {
       return this.setState(prevState => {
         return {
-          data: [newItem, ...prevState.data];
-        }
+          data: [newItem, ...prevState.data]
+        };
       });
     });
 
