@@ -1,63 +1,69 @@
 import React from "react";
-import { allProducts, removeProduct, addProduct } from "./api";
+import API from "./api";
 import uniqid from "uniqid";
 
 class Products extends React.Component {
-  state = { data: [], value: "" };
+  state = { data: [], value: "", isLoading: false };
   async componentDidMount() {
-    const response = await allProducts();
+    this.setState({ isLoading: true });
+    const response = await API.get("/products");
     const products = response.data;
-    this.setState({ data: products, value: "" });
+    this.setState({ data: products, value: "", isLoading: false });
   }
   removeProduct = async id => {
-    await removeProduct(id);
-    return this.setState(prevState => ({
-      data: prevState.data.filter(el => el.id != id)
-    }));
+    try {
+      this.setState({ isLoading: true });
+      await API.delete(`/products/${id}`);
+      return this.setState(prevState => ({
+        data: prevState.data.filter(el => el.id != id),
+        isLoading: false
+      }));
+    } catch (e) {
+      console.log(`ERROR:${e}`);
+    }
   };
 
   addProduct = async e => {
     e.preventDefault();
-    const newItem = {
-      name: this.state.value,
-      avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/yalozhkin/128.jpg"
-    };
 
-    this.setState({ value: "" });
-    await addProduct(newItem).then(() => {
-      return this.setState(prevState => {
-        return {
-          data: [newItem, ...prevState.data]
-        };
+    try {
+      this.setState({ isLoading: true });
+      const newItem = {
+        id: uniqid(),
+        name: this.state.value,
+        avatar:
+          "https://s3.amazonaws.com/uifaces/faces/twitter/yalozhkin/128.jpg"
+      };
+      const { data } = await API.post("products/", newItem);
+      const currentState = this.state.data;
+      this.setState({
+        data: currentState.concat(data),
+        value: "",
+        isLoading: false
       });
-    });
-
-    // this.setState(prevState => {
-    //   return {
-    //     data: [newItem, ...prevState.data]
-    //   };
-    // });
+      // await API.post("products/", newItem).then(() => {
+      //   return this.setState(prevState => {
+      //     return {
+      //       data: [newItem, ...prevState.data]
+      //     };
+      //   });
+      // });
+    } catch (e) {
+      console.log(`ERROR: ${e}`);
+    }
   };
-  // await addProduct(newItem).then();
-
-  //   try {
-  //     const response = await axios.post(
-  //       "https://5dd14f8d15bbc2001448d07d.mockapi.io/products/",
-  //       {
-  //         posted_data: newItem
-  //       }
-  //     );
-  //   } catch (e) {
-  //     console.log(`😱 Axios request failed: ${e}`);
-  //   }
-  // };
 
   handleChange = event => {
     this.setState({ value: event.target.value });
   };
 
   render() {
-    const { data, value } = this.state;
+    const { data, value, isLoading } = this.state;
+    const loadingSpinner = () => (
+      <div>
+        <i className="fa fa-spinner fa-spin" /> Loading...
+      </div>
+    );
     console.log(this.state);
 
     return (
@@ -65,6 +71,7 @@ class Products extends React.Component {
         {data.map(item => {
           return (
             <div className="item" key={item.id}>
+              <div>{item.id}</div>
               {item.name} <img src={item.avatar} alt="" />
               <button onClick={() => this.removeProduct(item.id)}>
                 Delete
@@ -77,6 +84,7 @@ class Products extends React.Component {
           <input type="text" value={value} onChange={this.handleChange} />
           <input type="submit" onClick={this.addProduct} />
         </form>
+        {isLoading ? loadingSpinner() : null}
       </div>
     );
   }

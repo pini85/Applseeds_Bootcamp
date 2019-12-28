@@ -1,4 +1,9 @@
 import axios from "axios";
+
+export default axios.create({
+  baseURL: "https://5e046e16a7ad3700141a23cf.mockapi.io"
+});
+
 const baseUrl = "https://5e046e16a7ad3700141a23cf.mockapi.io";
 export const getProduct = id => {
   return axios.get(`${baseUrl}/products/${id}`);
@@ -12,8 +17,8 @@ export const allProducts = () => {
   return axios.get(`${baseUrl}/products/`);
 };
 
-export const removeProduct = id => {
-  return axios.delete(`${baseUrl}/products/${id}`);
+export const removeProduct = async id => {
+  return await axios.delete(`${baseUrl}/products/${id}`);
 };
 
 export const addProduct = async newItem => {
