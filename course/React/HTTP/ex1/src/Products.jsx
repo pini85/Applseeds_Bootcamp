@@ -8,7 +8,7 @@ class Products extends React.Component {
     this.setState({ isLoading: true });
     const response = await API.get("/products");
     const products = response.data;
-    this.setState({ data: products, value: "", isLoading: false });
+    this.setState({ data: products, value: "", isLoading: false, error: "" });
   }
   removeProduct = async id => {
     try {
@@ -25,31 +25,34 @@ class Products extends React.Component {
 
   addProduct = async e => {
     e.preventDefault();
-
-    try {
-      this.setState({ isLoading: true });
-      const newItem = {
-        id: uniqid(),
-        name: this.state.value,
-        avatar:
-          "https://s3.amazonaws.com/uifaces/faces/twitter/yalozhkin/128.jpg"
-      };
-      const { data } = await API.post("products/", newItem);
-      const currentState = this.state.data;
+    // const imageVerification = this.state.imageUrl.match(/\.(jpeg|jpg|gif|png)$/) != null
+    if (this.state.value.length > 5) {
+      try {
+        this.setState({ isLoading: true });
+        const newItem = {
+          id: uniqid(),
+          name: this.state.value,
+          avatar:
+            "https://s3.amazonaws.com/uifaces/faces/twitter/yalozhkin/128.jpg"
+        };
+        const { data } = await API.post("products/", newItem);
+        console.log(data);
+        this.setState(prevState => {
+          return {
+            data: [data, ...prevState.data],
+            value: "",
+            error: "",
+            isLoading: false
+          };
+        });
+      } catch (e) {
+        console.log(`ERROR: ${e}`);
+      }
+    } else {
       this.setState({
-        data: currentState.concat(data),
         value: "",
-        isLoading: false
+        error: "Must be at least 6 characters long!"
       });
-      // await API.post("products/", newItem).then(() => {
-      //   return this.setState(prevState => {
-      //     return {
-      //       data: [newItem, ...prevState.data]
-      //     };
-      //   });
-      // });
-    } catch (e) {
-      console.log(`ERROR: ${e}`);
     }
   };
 
@@ -58,7 +61,7 @@ class Products extends React.Component {
   };
 
   render() {
-    const { data, value, isLoading } = this.state;
+    const { data, value, isLoading, error } = this.state;
     const loadingSpinner = () => (
       <div>
         <i className="fa fa-spinner fa-spin" /> Loading...
@@ -85,6 +88,7 @@ class Products extends React.Component {
           <input type="submit" onClick={this.addProduct} />
         </form>
         {isLoading ? loadingSpinner() : null}
+        {error}
       </div>
     );
   }
