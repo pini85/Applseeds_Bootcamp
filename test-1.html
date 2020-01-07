@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    .cell {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      font-size: 20px;
+      border: 1px solid black;
+      cursor: pointer;
+      vertical-align: top;
+      padding-left: 15px;
+      padding-top: 15px;
+      margin: 2px;
+    }
+  </style>
+
+  <body>
+    <div class="row">
+      <span class="cell"></span>
+      <span class="cell"></span>
+      <span class="cell"></span>
+    </div>
+    <div class="row">
+      <span class="cell"></span>
+      <span class="cell"></span>
+      <span class="cell"></span>
+    </div>
+    <div class="row">
+      <span class="cell"></span>
+      <span class="cell"></span>
+      <span class="cell"></span>
+    </div>
+
+    <script>
+      var currentSign = "X";
+      function start() {
+        var allCells = document.getElementsByClassName("cell");
+        for (var i = 0; i < allCells.length; i++) {
+          var cell = allCells[i];
+          cell.addEventListener("click", function() {
+            if (isClickable(this)) {
+              this.innerHTML = currentSign;
+              if (currentSign == "X") {
+                currentSign = "O";
+              } else {
+                currentSign = "X";
+              }
+            }
+          });
+        }
+      }
+
+      function isClickable(cell) {
+        return true;
+      }
+      start();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" id="menu-holder">
+      <label for="username" class="form-label">Name:</label>
+      <input type="text" id="username" /><br />
+      <label for="password" class="form-label">Password:</label>
+      <input type="password" id="password" /><br />
+      <input type="submit" id="my-submit" value="login" />
+    </form>
+    <div id="secret-content" style="display:none">
+      This is how you hack NASA with HTML
+    </div>
+    <script>
+      const bindForm = () => {
+        const btn = document.getElementById("my-submit");
+        btn.addEventListener("click", formClick);
+      };
+
+      const formClick = e => {
+        e.preventDefault();
+        const nameField = document.getElementById("username");
+        const isNameValid = validateName(nameField.value);
+        const isPassValid = validatePass();
+
+        if (isNameValid && isPassValid) {
+          revealSecretContent();
+        } else {
+          alert("Access Denied");
+        }
+      };
+      const validateName = nameVal => {
+        console.log(nameVal.indexOf("gg"));
+        if (nameVal.length == 0) {
+          // alert("alert 1");
+          //1
+          alert("Please enter username NOW!");
+          return false;
+        }
+        if (
+          (nameVal.indexOf("gg") !== -1 && nameVal.length > 4) ||
+          (nameVal.indexOf("i") == 0 && nameVal.length === 3)
+        ) {
+          return true;
+        } else {
+          return false;
+        }
+      };
+
+      const validatePass = () => {
+        return document.getElementById("password").value === "12345";
+      };
+
+      const revealSecretContent = () => {
+        //3
+        document.getElementById("secret-content").style.display = "block";
+      };
+      bindForm();
+    </script>
+  </body>
+</html>

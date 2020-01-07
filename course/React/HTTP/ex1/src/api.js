@@ -4,46 +4,46 @@ export default axios.create({
   baseURL: "https://5e046e16a7ad3700141a23cf.mockapi.io"
 });
 
-const baseUrl = "https://5e046e16a7ad3700141a23cf.mockapi.io";
-export const getProduct = id => {
-  return axios.get(`${baseUrl}/products/${id}`);
-};
+// const baseUrl = "https://5e046e16a7ad3700141a23cf.mockapi.io";
+// export const getProduct = id => {
+//   return axios.get(`${baseUrl}/products/${id}`);
+// };
 
-export const createProduct = product => {
-  return axios.post(`${baseUrl}/products`, product);
-};
+// export const createProduct = product => {
+//   return axios.post(`${baseUrl}/products`, product);
+// };
 
-export const allProducts = () => {
-  return axios.get(`${baseUrl}/products/`);
-};
+// export const allProducts = () => {
+//   return axios.get(`${baseUrl}/products/`);
+// };
 
-export const removeProduct = async id => {
-  return await axios.delete(`${baseUrl}/products/${id}`);
-};
+// export const removeProduct = async id => {
+//   return await axios.delete(`${baseUrl}/products/${id}`);
+// };
 
-export const addProduct = async newItem => {
-  await axios
-    .post(`${baseUrl}/products/`, newItem)
-    .then(function(response) {
-      console.log(response);
-    })
-    .catch(function(error) {
-      console.log(error);
-    });
-  // try {
-  //   const response = await axios.post(`${baseUrl}/products/`, {
-  //     id: id,
-  //     name: name,
-  //     avatar: avatar
-  //   });
-  //   // const response = await axios.post(`${baseUrl}/products/${item}`, {
-  //   //   posted_data: item
-  //   // });
-  //   console.log("👉 Returned data:", response);
-  // } catch (e) {
-  //   console.log(`😱 Axios request failed: ${e}`);
-  // }
-};
+// export const addProduct = async newItem => {
+//   await axios
+//     .post(`${baseUrl}/products/`, newItem)
+//     .then(function(response) {
+//       console.log(response);
+//     })
+//     .catch(function(error) {
+//       console.log(error);
+//     });
+// try {
+//   const response = await axios.post(`${baseUrl}/products/`, {
+//     id: id,
+//     name: name,
+//     avatar: avatar
+//   });
+//   // const response = await axios.post(`${baseUrl}/products/${item}`, {
+//   //   posted_data: item
+//   // });
+//   console.log("👉 Returned data:", response);
+// } catch (e) {
+//   console.log(`😱 Axios request failed: ${e}`);
+// }
+// };
 
 // export default axios.create({
 //     baseURL: 'https://api.unsplash.com',

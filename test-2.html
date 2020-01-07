@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+    </table>
+
+    <script>
+      var Vehicles = {};
+
+      Vehicles.data = {
+        cars: [
+          { brand: "Audi", model: "a4", year: "2014" },
+          { brand: "Mazda", model: "3", year: "2016" },
+          { brand: "Seat", model: "Ibiza", year: "2009" },
+          { brand: "Kia", model: "Rio", year: "2016" }
+        ],
+        bikes: [
+          { brand: "Suzuki", model: "gs500", year: "1997" },
+          { brand: "Honda", model: "CBR600", year: "2004" },
+          { brand: "Yamaha", model: "R1", year: "2015" },
+          { brand: "Kawasaki", model: "Ninja6", year: "2011" }
+        ]
+      };
+
+      Vehicles.show = function(vType) {
+        var relevantData = Vehicles.data[vType];
+        var table = document.createElement("table");
+        for (var i = 0; i < relevantData.length; i++) {
+          var row = document.createElement("tr");
+          var brand = document.createElement("td");
+          brand.innerText = relevantData[i].brand;
+          var model = document.createElement("td");
+          model.innerText = relevantData[i].model;
+          var year = document.createElement("td");
+          year.innerText = relevantData[i].year;
+          row.append(brand);
+          row.append(model);
+          row.append(year);
+          table.append(row);
+        }
+        document.body.append(table);
+      };
+      Vehicles.show("cars");
+    </script>
+  </body>
+</html>
