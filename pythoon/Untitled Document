@@ -1,0 +1,97 @@
+type(100) --- int
+type(100/3) --- float
+int(5.5) --- 5
+float(7) --- 7.0
+Int and float is also a function.
+
+100 // 3 --- 100
+Used it a lot for example what page you are in.
+It rounds it down.
+
+type(10 > 11)  ---- bool
+
+x >= 0 and x<= 100
+0 <= x <= 100
+
+0 is falsey
+"" is falsey
+
+%pastebin 1-72
+%histroy
+%histroy -n 
+
+and or not
+
+back slash if you have a comma like 'what\'s up'
+you can also do three """ """ or one "
+
+
+1)
+
+"123"
+int("123") --- 123
+string other way around
+
+string never changes. Functions will return new string/
+
+price = 7
+"The price is 7 NIS"
+" The price is" + str(price) + "NIS"
+
+2)
+
+"The price is %d NIS" %price
+%d is like a placeholder.
+two variables
+"Thep rice is %ds NIS. Discount: %s NIS. " %(price, price/11)
+"Thep rice is %.2f NIS. Discount: %.2f NIS. " %(price, price/11) -- 2 floats.
+
+
+3)
+
+"The price is {} NIS.format(price)"
+"The price is {} NIS. Discount {}.format(price,price/11)"
+"The price is {0:.2f} NIS. Discount {0:2.f}.format(price,price/11)"
+
+4)
+f"The price is {price:.2f} NIS"
+f-strings
+
+input("what is your name") like prompt
+
+x = 435
+assert x < 1000, "x is not allowed in range"
+
+for month,v in x:
+
+
+
+
+
+
+
+
+
+
+
+tuples and sequqwences
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

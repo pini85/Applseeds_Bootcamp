@@ -2,6 +2,7 @@ import React from "react";
 import API from "./api";
 import axios from "axios";
 import uniqid from "uniqid";
+import SearchBox from "./SearchBox";
 const CancelToken = axios.CancelToken;
 
 let cancel;
@@ -76,6 +77,7 @@ class Products extends React.Component {
 
     return (
       <div>
+        <h1>{value}</h1>
         {data.map(item => {
           return (
             <div className="item" key={item.id}>
@@ -89,7 +91,17 @@ class Products extends React.Component {
         })}
         <form action="#">
           <label htmlFor="name"> Name</label>
-          <input type="text" value={value} onChange={this.handleChange} />
+          {/* <input
+            placeholder="Add Products"
+            type="text"
+            value={value}
+            onChange={this.handleChange}
+          /> */}
+          <SearchBox
+            placeholder={"add products"}
+            value={value}
+            handleChange={this.handleChange}
+          ></SearchBox>
           <input disabled={isLoading} type="submit" onClick={this.addProduct} />
         </form>
         {isLoading ? loadingSpinner() : null}
