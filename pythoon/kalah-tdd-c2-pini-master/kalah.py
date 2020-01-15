@@ -1,2 +1,2 @@
 class Kalah:
-    pass
+    passs
