@@ -80,7 +80,7 @@ def test_divide_by_zero():
 	x / 0
 
 def not_a_test():
-	assert Flase, "!!!!"
+	assert Flase, "!!!!"	
 
 
 just write pytest in the terminal
