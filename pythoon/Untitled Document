@@ -93,6 +93,9 @@ crt;+shift+f10
 
 first write the tests then the functions
 
+JSON:
+with(open("data2.json, "w
+
 
 
 

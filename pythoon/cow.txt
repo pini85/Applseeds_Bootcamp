@@ -1,0 +1,250 @@
+short_name,name,capital,lat,lon,continent,subcontinent,population,land,languages,gov_url,long_name,dialing_code
+AF,Afghanistan,Kabul,33,65,AS,,30419928,652230,"fa,ps",president.gov.af,Islamic Republic of Afghanistan,93
+AX,Aland Islands,Mariehamn,60.25,20,EU,,28007,,sv,aland.ax,,358
+AL,Albania,Tirana,41,20,EU,,3002859,28748,sq,e-albania.al,Republic of Albania,355
+DZ,Algeria,Algiers,28,3,AF,,35406303,2381741,ar,el-mouradia.dz,People's Democratic Republic of Algeria,213
+AS,American Samoa,Pago Pago,-14.3333333333,-170,OC,,68061,199,"en,sm",americansamoa.gov,,1
+AD,Andorra,Andorra la Vella,42.5,1.5,EU,,85082,468,ca,govern.ad,Principality of Andorra,376
+AO,Angola,Luanda,-12.5,18.5,AF,,18056072,1246700,pt,governo.gov.ao,Republic of Angola,244
+AI,Anguilla,The Valley,18.25,-63.1666666667,NA,CA,15423,91,en,gov.ai,,1
+AQ,Antarctica,,-90,0,AN,,-1,14000000,,,,672
+AG,Antigua and Barbuda,Saint John's,17.05,-61.8,NA,CA,89018,,en,ab.gov.ag,Antigua and Barbuda,1
+AR,Argentina,Buenos Aires,-34,-64,SA,,42192494,2780400,es,argentina.gov.ar,Argentine Republic,54
+AM,Armenia,Yerevan,40,45,AS,,2970495,29743,hy,gov.am,Republic of Armenia,374
+AW,Aruba,Oranjestad,12.5,-69.9666666667,NA,CA,107635,180,nl,gobierno.aw,,297
+AU,Australia,Canberra,-27,133,OC,,22015576,7741220,en,australia.gov.au,Commonwealth of Australia,61
+AT,Austria,Vienna,47.3333333333,13.3333333333,EU,,8219743,83871,de,digitales.oesterreich.gv.at,Republic of Austria,43
+AZ,Azerbaijan,Baku,40.5,47.5,AS,,9493600,86600,az,president.az,Republic of Azerbaijan,994
+BS,Bahamas,Nassau,24.25,-76,NA,CA,316182,13880,en,bahamas.gov.bs,Commonwealth of The Bahamas,1
+BH,Bahrain,Manama,26,50.55,AS,ME,1248348,760,ar,bahrain.bh,Kingdom of Bahrain,973
+BD,Bangladesh,Dhaka,24,90,AS,,161083804,143998,bn,bangladesh.gov.bd,People's Republic of Bangladesh,880
+BB,Barbados,Bridgetown,13.1666666667,-59.5333333333,NA,CA,287733,430,en,barbados.gov.bb,Barbados,1
+BY,Belarus,Minsk,53,28,EU,,9542883,207600,"be,ru",belarus.by,Republic of Belarus,375
+BE,Belgium,Brussels,50.8333333333,4,EU,,10438353,30528,"nl,fr,de",belgium.be,Kingdom of Belgium,32
+BZ,Belize,Belmopan,17.25,-88.75,NA,CA,327719,22966,en,belize.gov.bz,Belize,501
+BJ,Benin,Porto-Novo,9.5,2.25,AF,,9598787,112622,fr,gouv.bj,Republic of Benin,229
+BM,Bermuda,Hamilton,32.3333333333,-64.75,NA,,69080,54,en,gov.bm,,1
+BT,Bhutan,Thimphu,27.5,90.5,AS,,716896,38394,dz,bhutan.gov.bt,Kingdom of Bhutan,975
+BO,"Bolivia, Plurinational State of",La Paz,-17,-65,SA,,10290003,1098581,"es,qu,ay",presidencia.gob.bo,Plurinational State of Bolivia,591
+BQ,"Bonaire, Sint Eustatius and Saba",,12.1666666667,-68.25,NA,CA,0,,"nl,en,pap",bonairegov.an,,599
+BA,Bosnia and Herzegovina,Sarajevo,44,18,EU,,4622292,51197,"bs,hr",fbihvlada.gov.ba,Bosnia and Herzegovina,387
+BW,Botswana,Gaborone,-22,24,AF,,2098018,581730,en,gov.bw,Republic of Botswana,267
+BV,Bouvet Island,,-54.4333333333,3.4,AN,,-1,49,,,,55
+BR,Brazil,Brasilia,-10,-55,SA,,205716890,8514877,pt,brasil.gov.br,Federative Republic of Brazil,55
+IO,British Indian Ocean Territory,,-6,71.5,AS,,4000,54400,en,fco.gov.uk/en/travel-and-living-abroad/find-an-embassy/asia-and-oceania/indian-ocean-territory,,246
+BN,Brunei Darussalam,Bandar Seri Begawan,4.5,114.666666667,AS,,408786,5765,ms,jpm.gov.bn,Brunei Darussalam,673
+BG,Bulgaria,Sofia,43,25,EU,,7037935,110879,bg,government.bg,Republic of Bulgaria,359
+BF,Burkina Faso,Ouagadougou,13,-2,AF,,17275115,274200,fr,gouvernement.gov.bf,Burkina Faso,226
+BI,Burundi,Bujumbura,-3.5,30,AF,,10557259,27830,"rn,fr",burundi-gov.bi,Republic of Burundi,257
+KH,Cambodia,Phnom Penh,13,105,AS,,14952665,181035,km,embassyofcambodia.org/links.html,Kingdom of Cambodia,855
+CM,Cameroon,Yaounde,6,12,AF,,20129878,475440,"en,fr",spm.gov.cm,Republic of Cameroon,237
+CA,Canada,Ottawa,60,-95,NA,,34300083,9984670,"en,fr",canada.gc.ca,Canada,1
+CV,Cape Verde,Praia,16,-24,AF,,523568,4033,pt,governo.cv,Republic of Cape Verde,238
+KY,Cayman Islands,George Town,19.5,-80.5,NA,CA,52560,264,en,gov.ky,,1
+CF,Central African Republic,Bangui,7,21,AF,,5057208,622984,fr,,Central African Republic,236
+TD,Chad,N'Djamena,15,19,AF,,10975648,,"fr,ar",primature-tchad.org,Republic of Chad,235
+CL,Chile,Santiago,-30,-71,SA,,17067369,756102,es,gob.cl,Republic of Chile,56
+CN,China,Beijing,35,105,AS,,1343239923,9596961,cmn,gov.cn,People's Republic of China,86
+CX,Christmas Island,The Settlement,-10.5,105.666666667,AS,,1496,135,en,christmas.shire.gov.cx,,61
+CC,Cocos (Keeling) Islands,West Island,-12.5,96.8333333333,AS,,596,14,"ms,en",shire.cc,,61
+CO,Colombia,Bogota,4,-72,SA,,45239079,1138910,es,gobiernoenlinea.gov.co,Republic of Colombia,57
+KM,Comoros,Moroni,-12.1666666667,44.25,AF,,737284,2235,"ar,fr",ocomores.com,Union of the Comoros,269
+CG,Congo,Brazzaville,-1,15,AF,,4125916,342000,fr,congo-site.com,Republic of the Congo,242
+CD,"Congo, The Democratic Republic of the",Kinshasa,0.0166666666667,25,AF,,73599190,2344858,fr,,The Democratic Republic of the Congo,243
+CK,Cook Islands,Avarua,-21.2333333333,-159.766666667,OC,,10777,236,en,cook-islands.gov.ck,Isole Cook,682
+CR,Costa Rica,San Jose,10,-84,NA,CA,4636348,51100,es,gobiernofacil.go.cr,Republic of Costa Rica,506
+CI,Cote d'Ivoire,Yamoussoukro,8,-5,AF,,21952093,322463,fr,gouv.ci,Republic of Cote d'Ivoire,255
+HR,Croatia,Zagreb,45.1666666667,15.5,EU,,4480043,56594,hr,vlada.hr,Republic of Croatia,385
+CU,Cuba,Havana,21.5,-80,NA,CA,11075244,110860,es,cubagob.cu,Republic of Cuba,53
+CW,Curacao,Willemstad,12.1666666667,-69,NA,CA,142180,444,nl,curacao-gov.an,,599
+CY,Cyprus,Nicosia,35,33,AS,,1138071,9251,"el,tr",cyprus.gov.cy,Republic of Cyprus,357
+CZ,Czech Republic,Prague,49.75,15.5,EU,,10177300,78867,cs,vlada.cz,Czech Republic,420
+DK,Denmark,Copenhagen,56,10,EU,,5543453,43094,da,denmark.dk,Kingdom of Denmark,45
+DJ,Djibouti,Djibouti,11.5,43,AF,,774389,23200,"fr,ar",presidence.dj,Republic of Djibouti,253
+DM,Dominica,Roseau,15.4166666667,-61.3333333333,NA,CA,73126,751,en,dominica.gov.dm,Commonwealth of Dominica,1
+DO,Dominican Republic,Santo Domingo,19,-70.6666666667,NA,CA,10088598,48670,es,presidencia.gov.do,Dominican Republic,1
+EC,Ecuador,Quito,-2,-77.5,SA,,15223680,283561,es,presidencia.gov.ec,Republic of Ecuador,593
+EG,Egypt,Cairo,27,30,AF,ME,83688164,1001450,ar,egypt.gov.eg,Arab Republic of Egypt,20
+SV,El Salvador,San Salvador,13.8333333333,-88.9166666667,NA,CA,6090646,21041,es,presidencia.gob.sv,Republic of El Salvador,503
+GQ,Equatorial Guinea,Malabo,2,10,AF,,685991,28051,"es,fr",guineaecuatorialpress.com,Republic of Equatorial Guinea,240
+ER,Eritrea,Asmara,15,39,AF,,6086495,117600,"ti,ar,en",shabait.com,State of Eritrea,291
+EE,Estonia,Tallinn,59,26,EU,,1274709,45228,et,valitsus.ee,Republic of Estonia,372
+ET,Ethiopia,Addis Ababa,8,38,AF,,93815992,1104300,"am,en,ar,ti,om",,Federal Democratic Republic of Ethiopia,251
+FK,Falkland Islands (Malvinas),Stanley,-51.75,-59,SA,,3140,12173,en,falklands.gov.fk,,500
+FO,Faroe Islands,Torshavn,62,-7,EU,,49483,1393,"fo,da",tinganes.fo,,298
+FJ,Fiji,Suva,-18,175,OC,,890057,18274,"en,fj",fiji.gov.fj,Republic of the Fiji Islands,679
+FI,Finland,Helsinki,64,26,EU,,5262930,338145,"fi,sv",government.fi,Republic of Finland,358
+FR,France,Paris,46,2,EU,,65630692,643801,fr,gouvernement.fr,French Republic,33
+GF,French Guiana,Cayenne,4,-53,SA,,217000,,fr,cr-guyane.fr,,594
+PF,French Polynesia,Papeete,-15,-140,OC,,274512,4167,"fr,ty",presidence.pf,,689
+TF,French Southern Territories,,-37.8333333333,77.5333333333,AN,,-1,,fr,taaf.fr,,262
+GA,Gabon,Libreville,-1,11.75,AF,,1608321,267667,fr,legabon.org,Gabonese Republic,237
+GM,Gambia,Banjul,13.4666666667,-16.5666666667,AF,,1840454,11295,en,gambia.gm,Republic of The Gambia,220
+GE,Georgia,T'bilisi,42,43.5,AS,,4570934,69700,ka,georgia.gov.ge,Georgia,995
+DE,Germany,Berlin,51,9,EU,,81305856,357022,de,,Federal Republic of Germany,49
+GH,Ghana,Accra,8,-2,AF,,25241998,238533,en,ghana.gov.gh,Republic of Ghana,233
+GI,Gibraltar,Gibraltar,36.1333333333,-5.35,EU,,29034,,en,gibraltar.gov.gi,,350
+GR,Greece,Athens,39,22,EU,,10767827,131957,el,,Hellenic Republic,30
+GL,Greenland,Nuuk,72,-40,NA,,57695,2166086,"kl,da",nanoq.gl,,299
+GD,Grenada,Saint George's,12.1166666667,-61.6666666667,NA,CA,109011,344,en,gov.gd,Grenada,1
+GP,Guadeloupe,Basse-Terre,16.25,-61.5833333333,NA,CA,405500,,fr,cr-guadeloupe.fr,,590
+GU,Guam,Hagatna,13.4666666667,144.783333333,OC,,183286,544,"en,cha",guam.gov,,1
+GT,Guatemala,Guatemala City,15.5,-90.25,NA,,14099032,108889,"es,myn",guatemala.gob.gt,Republic of Guatemala,502
+GG,Guernsey,Saint Peter Port,49.4666666667,-2.58333333333,EU,,64775,78,"en,fr",gov.gg,,44
+GN,Guinea,Conakry,11,-10,AF,,10884958,245857,fr,,Republic of Guinea,224
+GW,Guinea-Bissau,Bissau,12,-15,AF,,1628603,36125,pt,,Republic of Guinea-Bissau,245
+GY,Guyana,Georgetown,5,-59,SA,,741908,214969,en,gina.gov.gy,Co-operative Republic of Guyana,592
+HT,Haiti,Port-au-Prince,19,-72.4166666667,NA,CA,9801664,27750,"fr,ht",gov.ht,Republic of Haiti,509
+HM,Heard Island and McDonald Islands,,-53.1,72.5166666667,OC,,-1,412,,heardisland.aq,,0
+VA,Holy See (Vatican City State),Vatican City,41.9,12.45,EU,,836,,"it,la,fr",vatican.va,Vatican City,378
+HN,Honduras,Tegucigalpa,15,-86.5,NA,CA,8296693,112090,es,gob.hn,Republic of Honduras,504
+HK,Hong Kong,,22.25,114.166666667,AS,,7153519,1104,"yue,en",gov.hk,,852
+HU,Hungary,Budapest,47,20,EU,,9958453,93028,hu,kormany.hu,Republic of Hungary,36
+IS,Iceland,Reykjavik,65,-18,EU,,313183,103000,is,government.is,Republic of Iceland,354
+IN,India,New Delhi,20,77,AS,,1205073612,3287263,"hi,en",india.gov.in,Republic of India,91
+ID,Indonesia,Jakarta,-5,120,AS,,248216193,1904569,ms,indonesia.go.id,Republic of Indonesia,62
+IR,"Iran, Islamic Republic of",Tehran,32,53,AS,ME,78868711,1648195,fa,,Islamic Republic of Iran,98
+IQ,Iraq,Baghdad,33,44,AS,ME,31129225,438317,ar,,Republic of Iraq,964
+IE,Ireland,Dublin,53,-8,EU,,4722028,70273,"en,ga,gd",gov.ie,Ireland,353
+IM,Isle of Man,Douglas,54.25,-4.5,EU,,85421,572,en,gov.im,,44
+IL,Israel,Jerusalem,31.5,34.75,AS,ME,7590758,20770,he,gov.il,State of Israel,972
+IT,Italy,Rome,42.8333333333,12.8333333333,EU,,61261254,301340,it,governo.it,Italian Republic,39
+JM,Jamaica,Kingston,18.25,-77.5,NA,CA,2889187,10991,en,jamaica.gov.jm,Jamaica,1
+JP,Japan,Tokyo,36,138,AS,,127368088,377915,ja,,Japan,81
+JE,Jersey,Saint Helier,49.25,-2.16666666667,EU,,94949,116,en,gov.je,,44
+JO,Jordan,Amman,31,36,AS,ME,6508887,89342,ar,jordan.gov.jo,Hashemite Kingdom of Jordan,962
+KZ,Kazakhstan,Astana,48,68,AS,,17522010,2724900,"ru,kk",government.kz,Republic of Kazakhstan,7
+KE,Kenya,Nairobi,1,38,AF,,43013341,580367,"en,sw",kenya.go.ke,Republic of Kenya,254
+KI,Kiribati,Tarawa,1.41666666667,173,OC,,101998,811,en,kiribati.gov.ki,Republic of Kiribati,686
+KP,"Korea, Democratic People's Republic of",Pyongyang,40,127,AS,,24589122,120538,ko,korea-dpr.com,Democratic People's Republic of Korea,850
+KR,"Korea, Republic of",Seoul,37,127.5,AS,,48860500,99720,ko,korea.go.kr,Republic of Korea,82
+KW,Kuwait,Kuwait City,29.366667,47.966667,AS,ME,2646314,17818,ar,da.gov.kw,State of Kuwait,965
+KG,Kyrgyzstan,Bishkek,41,75,AS,,5496737,199951,"ky,ru",gov.kg,Kyrgyz Republic,996
+LA,Lao People's Democratic Republic,Vientiane,18,105,AS,,6586266,236800,lo,laopdr.gov.la,Lao People's Democratic Republic,856
+LV,Latvia,Riga,57,25,EU,,2191580,64589,lv,li.lv,Republic of Latvia,371
+LB,Lebanon,Beirut,33.8333333333,35.8333333333,AS,ME,4140289,10400,ar,informs.gov.lb,Lebanese Republic,961
+LS,Lesotho,Maseru,-29.5,28.5,AF,,1930493,30355,en,gov.ls,Kingdom of Lesotho,266
+LR,Liberia,Monrovia,6.5,-9.5,AF,,3887886,111369,en,emansion.gov.lr,Republic of Liberia,231
+LY,Libyan Arab Jamahiriya,Tripoli,25,17,AF,,6733620,1759540,ar,,Great Socialist People's Libyan Arab Jamahiriya,218
+LI,Liechtenstein,Vaduz,47.2666666667,9.53333333333,EU,,36713,160,de,liechtenstein.li,Principality of Liechtenstein,423
+LT,Lithuania,Vilnius,56,24,EU,,3525761,65300,lt,lrvk.lt,Republic of Lithuania,370
+LU,Luxembourg,Luxembourg,49.75,6.16666666667,EU,,509074,2586,"lb,de,fr",gouvernement.lu,Grand Duchy of Luxembourg,352
+MO,Macao,,22.1666666667,113.55,AS,,578025,,"yue,pt",gov.mo,,853
+MK,"Macedonia, The Former Yugoslav Republic of",Skopje,41.8333333333,22,EU,,2082370,25713,"mk,sq",vlada.mk,Republic of Macedonia.,389
+MG,Madagascar,Antananarivo,-20,47,AF,,22585517,587041,"fr,mg",madagascar.gov.mg,Republic of Madagascar,261
+MW,Malawi,Lilongwe,-13.5,34,AF,,16323044,118484,ny,malawi.gov.mw,Republic of Malawi,265
+MY,Malaysia,Kuala Lumpur,2.5,112.5,AS,,29179952,329847,zsm,malaysia.gov.my,Malaysia,60
+MV,Maldives,Male,3.25,73,AS,,394451,298,dv,maldivesinfo.gov.mv,Republic of Maldives,960
+ML,Mali,Bamako,17,-4,AF,,14533511,1240192,fr,primature.gov.ml,Republic of Mali,223
+MT,Malta,Valletta,35.8333333333,14.5833333333,EU,,409836,316,"mt,en",gov.mt,Republic of Malta,356
+MH,Marshall Islands,Majuro,9,168,OC,,68480,181,"mh,en",,Republic of the Marshall Islands,692
+MQ,Martinique,Fort-de-France,14.6,-61.0833333333,NA,CA,397730,,fr,cr-martinique.fr,,596
+MR,Mauritania,Nouakchott,20,-12,AF,,3359185,1030700,ar,mauritania.mr,Islamic Republic of Mauritania,222
+MU,Mauritius,Port Louis,-20.2833333333,57.55,AF,,1313095,2040,en,gov.mu,Republic of Mauritius,230
+YT,Mayotte,Mamoudzou,-12.8333333333,45.1666666667,AF,,231139,,fr,,,269
+MX,Mexico,Mexico City,23,-102,NA,,114975406,1964375,es,gob.mx,United Mexican States,52
+FM,"Micronesia, Federated States of",Palikir,6.91666666667,158.25,OC,,106487,702,en,fsmgov.org,Federated States of Micronesia,691
+MD,"Moldova, Republic of",Chisinau,47,29,EU,,3656843,33851,ro,moldova.md,Republic of Moldova,373
+MC,Monaco,Monaco,43.732778,7.419722,EU,,30510,2,fr,gouv.mc,Principality of Monaco,377
+MN,Mongolia,Ulaanbaatar,46,105,AS,,3179997,1564116,mn,pmis.gov.mn,Mongolia,976
+ME,Montenegro,Podgorica,42.5,19.3,EU,,657394,13812,sla,gov.me,Montenegro,382
+MS,Montserrat,Plymouth,16.75,-62.2,NA,CA,5164,102,en,gov.ms,Monserrat,1
+MA,Morocco,Rabat,32,-5,AF,,32309239,446550,ar,maroc.ma,Kingdom of Morocco,212
+MZ,Mozambique,Maputo,-18.25,35,AF,,23515934,799380,pt,mozambique.mz,Republic of Mozambique,258
+MM,Myanmar,Rangoon,22,98,AS,,54584650,676578,my,mnped.gov.mm,Republic of the Union of Myanmar,95
+NA,Namibia,Windhoek,-22,17,AF,,2165828,824292,en,grnnet.gov.na,Republic of Namibia,264
+NR,Nauru,Yaren District,-0.533333333333,166.916666667,OC,,9378,21,na,naurugov.nr,Republic of Nauru,674
+NP,Nepal,Kathmandu,28,84,AS,,29890686,147181,ne,nepalgov.gov.np,Federal Democratic Republic of Nepal,977
+NL,Netherlands,Amsterdam,52.5,5.75,EU,,16730632,41543,"nl,fr",government.nl,Kingdom of the Netherlands,31
+NC,New Caledonia,Noumea,-21.5,165.5,OC,,260166,18575,fr,gouv.nc,,687
+NZ,New Zealand,Wellington,-41,174,OC,,4327944,267710,"en,rar,nzs",newzealand.govt.nz,New Zealand,64
+NI,Nicaragua,Managua,13,-85,NA,CA,5727707,130370,es,presidencia.gob.ni,Republic of Nicaragua,505
+NE,Niger,Niamey,16,8,AF,,17078839,,fr,presidence.ne,Republic of Niger,227
+NG,Nigeria,Abuja,10,8,AF,,170123740,923768,en,nigeria.gov.ng,Federal Republic of Nigeria,234
+NU,Niue,Alofi,-19.0333333333,-169.866666667,OC,,1269,260,en,gov.nu,,683
+NF,Norfolk Island,Kingston,-29.0333333333,167.95,OC,,2182,36,en,gov.nf,,683
+MP,Northern Mariana Islands,Saipan,15.2,145.75,OC,,44582,464,"en,ch,cal",gov.mp,,1
+NO,Norway,Oslo,62,10,EU,,4707270,323802,"nn,nb",norge.no,Kingdom of Norway,47
+PS,Occupied Palestinian Territory,East Jerusalem,32,35.25,AS,ME,4199083,5860,"ar,en,he",pnic.gov.ps,,970
+OM,Oman,Muscat,21,57,AS,ME,3090150,309500,ar,omanet.om,Sultanate of Oman,968
+PK,Pakistan,Islamabad,30,70,AS,,190291129,796095,"ur,en",pakistan.gov.pk,Islamic Republic of Pakistan,92
+PW,Palau,Melekeok,7.5,134.5,OC,,21032,459,pau,palaugov.net,Republic of Palau,680
+PA,Panama,Panama City,9,-80,NA,CA,3510045,75420,es,presidencia.gob.pa,Republic of Panama,507
+PG,Papua New Guinea,Port Moresby,-6,147,OC,,6310129,462840,"tpi,en,ho",pm.gov.pg,Independent State of Papua New Guinea,675
+PY,Paraguay,Asuncion,-23,-58,SA,,6541591,406752,"es,gn",presidencia.gov.py,Republic of Paraguay,595
+PE,Peru,Lima,-10,-76,SA,,29549517,1285216,"es,qu",peru.gob.pe,Republic of Peru,51
+PH,Philippines,Manila,13,122,AS,,103775002,300000,"fil,en",gov.ph,Republic of the Philippines,63
+PN,Pitcairn,Adamstown,-25.0666666667,-130.1,OC,,48,47,en,government.pn,,872
+PL,Poland,Warsaw,52,20,EU,,38415284,312685,pl,poland.gov.pl,Republic of Poland,48
+PT,Portugal,Lisbon,39.5,-8,EU,,10781459,92090,"pt,mwl",portugal.gov.pt,Portuguese Republic,351
+PR,Puerto Rico,San Juan,18.25,-66.5,NA,CA,3998905,13790,"es,en",pr.gov,,1
+QA,Qatar,Doha,25.5,51.25,AS,ME,1951591,11586,ar,gov.qa,State of Qatar,974
+RE,Reunion,Saint-Denis,-21.1,55.6,AF,,827000,,fr,reunion.pref.gouv.fr,,262
+RO,Romania,Bucharest,46,25,EU,,21848504,238391,ro,gov.ro,Romania,40
+RU,Russian Federation,Moscow,60,100,EU,,138082178,17098242,ru,government.ru,Russian Federation,7
+RW,Rwanda,Kigali,-2,30,AF,,11689696,26338,"rw,fr,en",gov.rw,Republic of Rwanda,250
+BL,Saint Barthelemy,Gustavia,17.9,-62.833333,NA,CA,7332,,fr,comstbarth.fr,,590
+SH,"Saint Helena, Ascension and Tristan da Cunha",Jamestown,-15.95,-5.7,AF,,7728,,en,sainthelena.gov.sh,,290
+KN,Saint Kitts and Nevis,Basseterre,17.3333333333,-62.75,NA,CA,50726,261,en,gov.kn,Federation of Saint Christopher and Nevis,1
+LC,Saint Lucia,Castries,13.8833333333,-60.9666666667,NA,CA,162178,616,en,stlucia.gov.lc,Saint Lucia,1
+MF,Saint Martin (French part),Marigot,18.075278,-63.06,NA,CA,30959,,fr,com-saint-martin.fr,,590
+PM,Saint Pierre and Miquelon,Saint-Pierre,46.8333333333,-56.3333333333,NA,,5831,242,fr,saint-pierre-et-miquelon.pref.gouv.fr,,508
+VC,Saint Vincent and The Grenadines,Kingstown,13.25,-61.2,NA,CA,103537,389,en,gov.vc,Saint Vincent and the Grenadines,1
+WS,Samoa,Apia,-13.5833333333,-172.333333333,OC,,194320,2831,sm,govt.ws,Independent State of Samoa,685
+SM,San Marino,San Marino,43.933333,12.4166666667,EU,,32140,61,it,,Republic of San Marino,378
+ST,Sao Tome and Principe,Sao Tome,1,7,AF,,183176,964,pt,gov.st,Democratic Republic of Sao Tome and Principe,239
+SA,Saudi Arabia,Riyadh,25,45,AS,ME,26534504,2149690,ar,saudi.gov.sa,Kingdom of Saudi Arabia,966
+SN,Senegal,Dakar,14,-14,AF,,12969606,196722,fr,gouv.sn,Republic of Senegal,221
+RS,Serbia,Belgrade,44,21,EU,,7276604,77474,sr,srbija.gov.rs,Republic of Serbia,381
+SC,Seychelles,Victoria,-4.58333333333,55.6666666667,AF,,90024,455,en,egov.sc,Republic of Seychelles,248
+SL,Sierra Leone,Freetown,8.5,-11.5,AF,,5485998,71740,en,statehouse.gov.sl,Republic of Sierra Leone,232
+SG,Singapore,Singapore,1.36666666667,103.8,AS,,5353494,697,"cmn,en,ms",gov.sg,Republic of Singapore,65
+SX,Sint Maarten (Dutch part),Philipsburg,18.04167,-63.06667,NA,CA,37429,34,"en,nl",sintmaartengov.org,,599
+SK,Slovakia,Bratislava,48.6666666667,19.5,EU,,5483088,49035,sk,government.gov.sk,Slovak Republic,421
+SI,Slovenia,Ljubljana,46.1166666667,14.8166666667,EU,,1996617,20273,"sl,it,hu",gov.si,Republic of Slovenia,386
+SB,Solomon Islands,Honiara,-8,159,OC,,584578,28896,en,pmc.gov.sb,Solomon Islands,677
+SO,Somalia,Mogadishu,10,49,AF,,10085638,637657,so,somaligovernment.org,Somali Republic,252
+ZA,South Africa,Pretoria,-29,24,AF,,48810427,1219090,"xh,zu,af,nso,en",gov.za,Republic of South Africa,27
+GS,South Georgia and the South Sandwich Islands,King Edward Point,-54.5,-37,AN,,-1,,,sgisland.gs,,0
+SS,South Sudan,Juba,8,30,AF,,10625176,,en,goss.org,Republic of South Sudan,211
+ES,Spain,Madrid,40,-4,EU,,47042984,505370,es,lamoncloa.gob.es,Kingdom of Spain,34
+LK,Sri Lanka,Colombo,7,81,AS,,21481334,65610,si,priu.gov.lk,Democratic Socialist Republic of Sri Lanka,94
+SD,Sudan,Khartoum,15,30,AF,,34206710,1861484,"ar,en",sudan.gov.sd,Republic of the Sudan,249
+SR,Suriname,Paramaribo,4,-56,SA,,560157,163820,nl,,Republic of Suriname,597
+SJ,Svalbard and Jan Mayen,Longyearbyen,78,20,EU,,2067,62045,"nn,ru",,,47
+SZ,Swaziland,Mbabane,-26.5,31.5,AF,,1386914,17364,"en,ss",gov.sz,Kingdom of Swaziland,268
+SE,Sweden,Stockholm,62,15,EU,,9103788,450295,sv,sweden.gov.se,Kingdom of Sweden,46
+CH,Switzerland,Bern,47,8,EU,,7655628,41277,"de,fr,it",gov.ch,Swiss Confederation,41
+SY,Syrian Arab Republic,Damascus,35,38,AS,ME,22530746,185180,ar,,Syrian Arab Republic,963
+TW,"Taiwan, Province of China",Taipei,23.5,121,AS,,23113901,35980,cmn,gio.gov.tw,,886
+TJ,Tajikistan,Dushanbe,39,71,AS,,7768385,143100,tg,,Republic of Tajikistan,992
+TZ,"Tanzania, United Republic of",Dar es Salaam,-6,35,AF,,43601796,947300,"sw,en",tanzania.go.tz,United Republic of Tanzania,255
+TH,Thailand,Bangkok,15,100,AS,,67091089,513120,th,egov.go.th,Kingdom of Thailand,66
+TL,Timor-Leste,Dili,-8.83333333333,125.916666667,AS,,1201255,14874,"tet,pt",timor-leste.gov.tl,Democratic Republic of Timor-Leste,670
+TG,Togo,Lome,8,1.16666666667,AF,,6961049,56785,fr,republicoftogo.com,Togolese Republic,229
+TK,Tokelau,,-9,-172,OC,,1368,12,"tkl,en",tokelau.org.nz,,690
+TO,Tonga,Nuku'alofa,-20,-175,OC,,106146,747,"to,en",pmo.gov.to,Kingdom of Tonga,676
+TT,Trinidad and Tobago,Port-of-Spain,11,-61,NA,CA,1226383,5128,en,gov.tt,Republic of Trinidad and Tobago,1
+TN,Tunisia,Tunis,34,9,AF,,10732900,163610,ar,tunisie.gov.tn,Tunisian Republic,216
+TR,Turkey,Ankara,39,35,AS,ME,79749461,783562,tr,,Republic of Turkey,90
+TM,Turkmenistan,Ashgabat,40,60,AS,,5054828,488100,tk,turkmenistan.gov.tm,Turkmenistan,993
+TC,Turks and Caicos Islands,Grand Turk,21.75,-71.5833333333,NA,CA,46335,948,en,tcgov.tc,,1
+TV,Tuvalu,Funafuti,-8,178,OC,,10619,26,"tvl,en",,Tuvalu,688
+UG,Uganda,Kampala,1,32,AF,,35873253,241038,en,,Republic of Uganda,256
+UA,Ukraine,Kyiv/Kiev,49,32,EU,,44854065,603550,uk,kmu.gov.ua,Ukraine,380
+AE,United Arab Emirates,Araabia Ühendemiraadid,24,54,AS,ME,5314317,83600,ar,,United Arab Emirates,971
+GB,United Kingdom,London,54,-2,EU,,63047162,243610,"en,cy,ga",direct.gov.uk,United Kingdom of Great Britain and Northern Ireland,44
+US,United States,"Washington, D.C.",38,-97,NA,,313847465,9826675,en,us.gov,United States of America,1
+UM,United States Minor Outlying Islands,,16.75,-169.516666667,OC,,316,,en,,,699
+UY,Uruguay,Montevideo,-33,-56,SA,,3316328,176215,es,presidencia.gub.uy,Oriental Republic of Uruguay,598
+UZ,Uzbekistan,Tashkent,41,64,AS,,28394180,447400,uz,gov.uz,Republic of Uzbekistan,998
+VU,Vanuatu,Port Vila,-16,167,OC,,227574,12189,"en,fr",governmentofvanuatu.gov.vu,Republic of Vanuatu,678
+VE,"Venezuela, Bolivarian Republic of",Caracas,8,-66,SA,,28047938,912050,es,presidencia.gob.ve,Bolivarian Republic of Venezuela,58
+VN,Viet Nam,Hanoi,16.1666666667,107.833333333,AS,,91519289,331210,vi,chinhphu.vn,Socialist Republic of Vietnam,84
+VG,"Virgin Islands, British",Road Town,18.5,-64.5,NA,CA,31148,151,en,,,1
+VI,"Virgin Islands, U.S.",Charlotte Amalie,18.3333333333,-64.8333333333,NA,CA,109574,1910,en,,,1
+WF,Wallis and Futuna,Mata-Utu,-13.3,-176.2,OC,,15453,142,fr,,,681
+EH,Western Sahara,Laayoune,24.5,-13,AF,,522928,266000,ar,,,212
+YE,Yemen,Sanaa,15,48,AS,ME,24771809,527968,ar,,Republic of Yemen,967
+ZM,Zambia,Lusaka,-15,30,AF,,14309466,752618,"bem,ny,tog,loz,luo,kqn,en,lue",statehouse.gov.zm,Republic of Zambia,260
+ZW,Zimbabwe,Harare,-20,30,AF,,12619600,390757,en,gta.gov.zw,Republic of Zimbabwe,263
