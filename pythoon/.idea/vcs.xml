@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ExMan2020" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/exman2020" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/kalah-tdd-c2-pini" vcs="Git" />
   </component>
 </project>

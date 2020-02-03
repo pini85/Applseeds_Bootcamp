@@ -1,0 +1,3 @@
+import requestssss
+BOT_TOKEN = "888419659:AAHoG3B9TQE47EqIA7XbZJWezyrMbebfNBU"
+BOT_TOKEN_2 = "807822325:AAE77t6q7MaldvxCaziktO7zjwCNv0asJmA"
