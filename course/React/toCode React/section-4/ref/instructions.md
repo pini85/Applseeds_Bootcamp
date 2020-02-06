@@ -1,0 +1,5 @@
+Write a control consisting of 4 rectangles next to each other. At the top of the left rectangle control gets a keyboard focus. Clicking each button on the keyboard registers the character that is clicked into the rectangle currently in focus and moves the focus to the next rectangle in the queue. From the rightmost rectangle, focus should be returned first. Remember to address a situation where keyboard focus changes outside of the control, for example as a result of mouse click or tab.
+
+Handling a keyboard click in React is only adding an onKeyPress property to the control. The event description object remains as it was in JavaScript and you can use it to get the character that the user is typing.
+
+Changing the focus of an element is done through direct access to the DOM and activating the focus function on the DOM Element. If you save the box that is currently in focus as State, you can use the componentDidUpdate function that is called automatically every time the state is changed and executes code that finds the appropriate DOM element and adds focus to it.
