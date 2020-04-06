@@ -1,14 +1,28 @@
 import React from "react";
 
-const SearchBox = ({ placeholder, value, handleChange }) => {
+const SearchBox = ({
+  placeholder,
+  value,
+  handleChange,
+  label,
+  isDisabled,
+  addProduct,
+  error
+}) => {
   return (
     <>
-      <input
-        placeholder={placeholder}
-        type="search"
-        value={value}
-        onChange={handleChange}
-      />
+      <form action="#">
+        <label for={label}>{label}: </label>
+        <input
+          placeholder={placeholder}
+          type="search"
+          value={value}
+          id={label}
+          onChange={handleChange}
+        />
+        <input disabled={isDisabled} type="submit" onClick={addProduct} />
+      </form>
+      {error}
     </>
   );
 };

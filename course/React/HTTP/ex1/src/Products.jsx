@@ -1,60 +1,69 @@
 import React from "react";
 import API from "./api";
-import axios from "axios";
 import uniqid from "uniqid";
 import SearchBox from "./SearchBox";
-const CancelToken = axios.CancelToken;
-
-let cancel;
 
 class Products extends React.Component {
-  state = { data: [], value: "", isLoading: false };
+  state = {
+    data: [],
+    value: "",
+    isLoading: false,
+    error: "",
+    isDisabled: false
+  };
   async componentDidMount() {
+    this.setState({ isLoading: true });
     const response = await API.get("/products");
-    const products = response.data;
-    this.setState({ data: products, value: "", isLoading: false, error: "" });
+    const products = await response.data;
+    this.setState({ data: products, isLoading: false });
+    console.log(this.state.data);
   }
   removeProduct = async id => {
     try {
-      this.setState({ isLoading: true });
-      await API.delete(`/products/${id}`, {
-        cancelToken: new CancelToken(function executor(c) {
-          // An executor function receives a cancel function as a parameter
-          cancel = c;
-        })
+      this.setState({ isLoading: true, isDisabled: true });
+      await API.delete(`/products/${id}`);
+      return this.setState({
+        data: [...this.state.data].filter(el => el.id != id),
+        isLoading: false,
+        isDisabled: false
       });
       return this.setState(prevState => ({
         data: prevState.data.filter(el => el.id != id),
-        isLoading: false
+        isLoading: false,
+        isDisabled: false
       }));
-    } catch (e) {}
+    } catch (e) {
+      console.log(e);
+    }
   };
 
   addProduct = async e => {
     e.preventDefault();
-    // const imageVerification = this.state.imageUrl.match(/\.(jpeg|jpg|gif|png)$/) != null
     if (this.state.value.length > 5) {
       try {
-        console.log("im trying");
-
-        this.setState({ isLoading: true });
+        this.setState({ isLoading: true, isDisabled: true });
         const newItem = {
           id: uniqid(),
           name: this.state.value,
           avatar:
-            "https://s3.amazonaws.com/uifaces/faces/twitter/yalozhkin/128.jpg"
+            "https://freenews.live/wp-content/uploads/2020/03/Chuck-Norris-is-80-years-old.jpg"
         };
         const { data } = await API.post("products/", newItem);
+        console.log("data", data);
 
         this.setState(prevState => {
           return {
-            data: [data, ...prevState.data],
+            data: [...prevState.data, data],
             value: "",
             error: "",
-            isLoading: false
+            isLoading: false,
+            isDisabled: false
           };
         });
-      } catch (e) {}
+        console.log(this.state.data);
+      } catch (e) {
+        console.log(e);
+      }
     } else {
       this.setState({
         value: "",
@@ -68,10 +77,11 @@ class Products extends React.Component {
   };
 
   render() {
-    const { data, value, isLoading, error } = this.state;
+    const { data, value, isLoading, error, isDisabled } = this.state;
+
     const loadingSpinner = () => (
       <div>
-        <i className="fa fa-spinner fa-spin" /> Loading...
+        <h2>LOADING!!!!PATIENTS!</h2>
       </div>
     );
 
@@ -81,31 +91,31 @@ class Products extends React.Component {
         {data.map(item => {
           return (
             <div className="item" key={item.id}>
-              <div>{item.id}</div>
-              {item.name} <img src={item.avatar} alt="" />
-              <button onClick={() => this.removeProduct(item.id)}>
+              <div>{item.name}</div>{" "}
+              <div>
+                <img src={item.avatar} alt={item.name} />
+              </div>
+              <button
+                disabled={isDisabled}
+                onClick={() => this.removeProduct(item.id)}
+              >
                 Delete
               </button>
             </div>
           );
         })}
-        <form action="#">
-          <label htmlFor="name"> Name</label>
-          {/* <input
-            placeholder="Add Products"
-            type="text"
-            value={value}
-            onChange={this.handleChange}
-          /> */}
-          <SearchBox
-            placeholder={"add products"}
-            value={value}
-            handleChange={this.handleChange}
-          ></SearchBox>
-          <input disabled={isLoading} type="submit" onClick={this.addProduct} />
-        </form>
+
+        <SearchBox
+          label="name"
+          placeholder="add products"
+          value={value}
+          handleChange={this.handleChange}
+          isDisabled={isDisabled}
+          addProduct={this.addProduct}
+          error={error}
+        ></SearchBox>
+
         {isLoading ? loadingSpinner() : null}
-        {error}
       </div>
     );
   }
